@@ -135,7 +135,7 @@
     "editorGroupHeader.tabsBorder": "#2E2E2E",
     "tab.activeBackground": "#242424",
     "tab.activeForeground": "#CECECE",
-    "tab.activeBorder": "#FF50FF",
+    "tab.activeBorder": null,
     "tab.border": "#2E2E2E",
     "tab.inactiveBackground": "#1B1B1B",
     "tab.inactiveForeground": "#CECECE",

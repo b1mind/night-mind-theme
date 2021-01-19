@@ -3,7 +3,11 @@
   "displayName": "Night Mind",
   "description": "Night Mind theme based on Night Wolf/Owl",
   "publisher": "b1m1nd",
+  "author": {
+    "name": "Brent Morton"
+  },
   "version": "0.0.1",
+  "preview": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/b1m1nd/night-mind-theme"
@@ -22,14 +26,16 @@
     "Theme",
     "Dark Theme",
     "Night Theme",
-    "Night Mind"
+    "Night Mind",
+    "1 Mind",
+    "b1m1nd"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "night-mind-dark-gray",
+        "label": "Night Mind [dark-gray]",
         "uiTheme": "vs-dark",
-        "path": "./themes/Night Mind-color-theme.json"
+        "path": "./themes/night-mind-dark-gray.json"
       }
     ]
   },
@@ -37,8 +43,5 @@
     "color": "#101E2C",
     "theme": "dark"
   },
-  "icon": "images/night-mind-icon.png",
-  "__metadata": {
-    "publisherDisplayName": "b1m1nd"
-  }
+  "icon": "images/night-mind-icon.png"
 }

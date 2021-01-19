@@ -1,6 +1,6 @@
 ## Night Mind
 
-Tis will be a collection of custom remakes on favorite dark themes
+This will be a collection of custom remakes on favorite dark themes
 
 ### Stuff to remove \*(old)
 
