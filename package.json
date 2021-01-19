@@ -1,0 +1,21 @@
+{
+    "name": "night-mind",
+    "displayName": "Night Mind",
+    "description": "Night Mind theme based on Night Wolf/Owl",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Night Mind",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Night Mind-color-theme.json"
+            }
+        ]
+    }
+}
