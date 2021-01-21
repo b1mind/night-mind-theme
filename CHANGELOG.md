@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.0.3
+
+-Fix word highlighting and highlighting
+
 ## v0.0.2
 
 - Defaults working better
