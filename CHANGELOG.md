@@ -2,7 +2,8 @@
 
 ## v0.0.2
 
-- Make real changes and publish
+- Defaults working better
+- Highlight word changed - Has known issues
 
 ## v0.0.1
 
