@@ -1,4 +1,4 @@
-const someConst = 'a thing'
+const someConst = 'a someConst thing'
 let someLet = 'I can be edited'
 
 console.log(someLet)
