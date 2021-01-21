@@ -24,6 +24,23 @@
     "textCodeBlock.background": "#242424",
     "textPreformat.foreground": "#CECECE",
     "textSeparator.foreground": "#242424",
+    "editor.selectionBackground": "#3D3D3D",
+    "editor.selectionForeground": "#CECECE",
+    "editor.selectionHighlightBackground": "#3d3d3d",
+    "editor.inactiveSelectionBackground": "#3d3d3d",
+    "editor.wordHighlightBackground": "#161616",
+    "editor.hoverHighlightBackground": "#ff50ff",
+    "editor.wordHighlightStrongBackground": "#161616",
+    "editor.wordHighlightStrongBorder": "#ff50ff4b",
+    "editor.findMatchBackground": "#525252",
+    "editor.findMatchHighlightBackground": "#2E2E2E",
+    "editor.findRangeHighlightBackground": "#2e2e2e",
+    "editor.lineHighlightBackground": "#161616",
+    "editor.lineHighlightBorder": null,
+    "editor.rangeHighlightBackground": "#3D3D3D",
+    "editor.rangeHighlightForeground": "#CECECE",
+    "editorBracketMatch.background": "#161616",
+    "editorBracketMatch.border": "#ff50ffcc",
     "editorWhitespace.foreground": "#2E2E2E",
     "editorIndentGuide.background": "#2E2E2E",
     "editorIndentGuide.activeBackground": "#525252",
@@ -161,26 +178,6 @@
     "merge.border": null,
     "merge.commonContentBackground": "#FFE39C50",
     "merge.commonHeaderBackground": null,
-    "editor.wordHighlightBorder": "#ff50ff4b",
-    "editor.selectionBackground": "#3D3D3D",
-    "editor.selectionForeground": "#CECECE",
-    "editor.selectionHighlightBorder": "#ff50ff4b",
-    "editor.selectionHighlightBackground": "#1b1b1b",
-    "editor.inactiveSelectionBackground": "#161616",
-    "editor.wordHighlightBackground": "#161616",
-    "editor.wordHighlightStrongBackground": "#2E2E2E",
-    "editor.hoverHighlightBackground": "#2E2E2E",
-    "editor.findMatchBackground": "#525252",
-    "editor.findMatchHighlightBackground": "#2E2E2E",
-    "editor.findRangeHighlightBackground": null,
-    "editor.findMatchBorder": "#ff50ff4c",
-    "editor.lineHighlightBackground": "#161616",
-    "editor.lineHighlightBorder": null,
-    "editor.rangeHighlightBackground": "#3D3D3D",
-    "editor.rangeHighlightForeground": "#CECECE",
-    "editor.rangeHighlightBorder": "#fff",
-    "editorBracketMatch.background": "#161616",
-    "editorBracketMatch.border": "#ff50ffcc",
     "editorOverviewRuler.currentContentForeground": "#FF50FF",
     "editorOverviewRuler.incomingContentForeground": "#FF50FF",
     "editorOverviewRuler.commonContentForeground": "#FF50FF",
@@ -683,13 +680,7 @@
     },
     {
       "name": "Constants and enums",
-      "scope": [
-        "punctuation.definition.constant",
-        "support.type.primitive",
-        "support.constant.math",
-        "variable.other.constant",
-        "variable.other.enummember"
-      ],
+      "scope": ["variable.other.constant", "variable.other.enummember"],
       "settings": {
         "foreground": "#e0b96b"
       }
@@ -1430,7 +1421,7 @@
         "variable.object.property.jsx"
       ],
       "settings": {
-        "foreground": "#d39033"
+        "foreground": "#e0b96b"
       }
     },
     {
