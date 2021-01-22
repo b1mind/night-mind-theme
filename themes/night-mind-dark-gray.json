@@ -257,7 +257,7 @@
     "terminal.ansiBrightRed": "#FF7878",
     "terminal.ansiBrightYellow": "#e0b96b"
   },
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "Global settings",
@@ -266,7 +266,6 @@
         "foreground": "#CECECE"
       }
     },
-
     {
       "name": "normalize font style of certain components",
       "scope": [
@@ -1338,17 +1337,9 @@
     },
     {
       "name": "JavaScript parameters",
-      "scope": ["variable.parameter.js", "entity.name.variable.js"],
+      "scope": ["variable.parameter", "entity.name.variable"],
       "settings": {
-        "foreground": "#e0b96b",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "JavaScript Constant",
-      "scope": ["variable.other.constant.js", "variable.other.enummember"],
-      "settings": {
-        "foreground": "#e0b96b"
       }
     },
     {
@@ -1679,7 +1670,7 @@
         "markup.underline.link.image.markdown"
       ],
       "settings": {
-        "foreground": "#a1d884"
+        "foreground": "#e0b96b"
       }
     },
     {
