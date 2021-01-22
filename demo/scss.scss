@@ -1,0 +1,30 @@
+//- //< Sassy settings
+$minWidthLg: 1000px;
+$minWidthMed: 800px;
+$minWidthSml: 420px;
+//- //>Base settings
+:root {
+  --color: #fff;
+  --color2: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
