@@ -1,7 +1,9 @@
 .someClass {
   font-family: sans;
+  font-family: serif;
 }
 
 #someID {
+  width: auto;
   background: yellow;
 }
