@@ -1,21 +1,22 @@
-import { nothing } from "nothing";
+import { imported } from "nothing";
 export default async function unreachableCode() {
   return 10;
 }
 
 //never used
+import { nothing } from "nothing";
 const hello = "I am never used";
+let world = "never used";
+const mindArrows = () => {};
 doesNotExist.nope(`I'm never imported`);
-nothing.call;
 
 class Widget extends React.Component {}
 Widget;
 
+imported.call("I am imported");
+
 const someNew = new Date().getDate();
 console.log(someNew.checking);
-
-function mindArrows() {}
-const brent = function () {};
 
 function functionJunction(e, params, ...args) {
   params.someShit;
@@ -25,11 +26,13 @@ function functionJunction(e, params, ...args) {
   brent;
   console.log(params, paramsConst);
 }
-
-const lastName = "Morton";
-const age = 200;
-
 functionJunction();
+
+const turneryOps = age === 100 ? "old person" : "not that old";
+
+const brent = function () {};
+let lastName = "Morton";
+const age = 200;
 
 console.log(brent, lastName);
 
@@ -60,13 +63,4 @@ const myObj = {
 
 myObj.addProps(age);
 
-const turneryOps = age === 100 ? "old person" : "not that old";
 turneryOps;
-
-const wesConst = {
-  age: 120,
-  name: `Brent`,
-};
-
-console.log(wesConst.age);
-console.log(wesConst.doesNotExist);
