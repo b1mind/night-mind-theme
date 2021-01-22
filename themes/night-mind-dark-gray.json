@@ -454,7 +454,7 @@
         "entity.name.type.class"
       ],
       "settings": {
-        "foreground": "#FFB482"
+        "foreground": "#e0b96b"
       }
     },
 
@@ -674,7 +674,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#e0b96b",
+        "foreground": "#e7ca8d",
         "fontStyle": "normal"
       }
     },
@@ -1320,17 +1320,7 @@
         "fontStyle": "italic"
       }
     },
-    {
-      "name": "JavaScript Variables",
-      "scope": [
-        "meta.definition.variable.name",
-        "variable.js",
-        "variable.other.js"
-      ],
-      "settings": {
-        "foreground": "#ff00ff"
-      }
-    },
+
     {
       "name": "JavaScript Entity Name Type",
       "scope": ["entity.name.type.js", "entity.name.type.module.js"],
@@ -1689,7 +1679,7 @@
         "markup.underline.link.image.markdown"
       ],
       "settings": {
-        "foreground": "#e0b96b"
+        "foreground": "#a1d884"
       }
     },
     {

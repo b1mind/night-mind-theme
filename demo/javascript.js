@@ -6,7 +6,11 @@ const hello = "I am never used";
 
 doesNotExist.nope(`I'm never imported`);
 
-class widget extends React.Component {}
+class Widget extends React.Component {}
+
+nothing.call;
+
+Widget;
 
 const joe = function () {};
 
@@ -18,10 +22,9 @@ function wes() {}
 const wes = () => {};
 
 console.log(joe, wes);
-let variable = "this is a variable";
 
 let variable2 = 420;
-
+let variable = "this is a variable";
 console.log(`this is a ${variable}`);
 
 const string = `some things need to be colored ${variable2}`;
