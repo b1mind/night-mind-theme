@@ -2,6 +2,10 @@
 
 **Keep in mind this is a preview**
 
+## v0.0.5
+
+- quick fix for scrollbar and focus lists text
+
 ## v0.0.4
 
 _Issue_: Semantic off by default. Feel free to overwrite in your settings. Flickers for vim users mode in/out (common with most themes currently)
