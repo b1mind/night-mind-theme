@@ -26,6 +26,7 @@ function functionJunction(e, params, ...args) {
   brent;
   console.log(params, paramsConst);
 }
+
 functionJunction();
 
 const turneryOps = age === 100 ? "old person" : "not that old";
