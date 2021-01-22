@@ -1,8 +1,11 @@
 Todo: 
   ☐ restyle expoler text/highlight
-  ☐ find a highlight purple to replace pink?
-  ☐ change tab underline to purple? or a white?
-  ☐ make const and let different colors
+  ☐ set up template with default (like default themes do)
+  ☐ learn how to use the new semantic styles
+  ☐ Issue: Semantic styles make const and let different colors, params italic
+  ☐ style icons in the top left of active window
 
-Wishlist:
-
+Archive:
+  ✔ style more of the UI components @done(21-01-22 01:32) @project(Todo)
+  ✔ add more of the highlight color @done(21-01-22 01:31) @project(Todo)
+  ✔ change tab underline to white @done(21-01-22 01:30) @project(Todo)
