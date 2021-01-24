@@ -2,6 +2,12 @@
 
 **Keep in mind this is a preview**
 
+## v0.0.6
+
+- added screenshots
+- started testing different semantics, vim extension will still see some flickering (submitted issue for it might try to PR)
+- changed css var coloring and breadcrumbs default
+
 ## v0.0.5
 
 - quick fix for scrollbar and focus lists text
