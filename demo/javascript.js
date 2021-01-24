@@ -19,35 +19,22 @@ const someNew = new Date().getDate();
 console.log(someNew.checking);
 
 function functionJunction(e, params, ...args) {
-  params.someShit;
-  e.target = this.thing;
-  let args = args;
   const paramsConst = params;
-  brent;
   console.log(params, paramsConst);
+
+  if (e !== 40 || params.includes(420)) {
+    let someArgs = [...args];
+
+    const a = this.thing;
+    someArgs = a;
+  } else {
+    let variable = params.someObject;
+
+    console.log(`this is a ${variable}`);
+  }
 }
 
 functionJunction();
-
-const turneryOps = age === 100 ? "old person" : "not that old";
-
-const brent = function () {};
-let lastName = "Morton";
-const age = 200;
-
-console.log(brent, lastName);
-
-let variable2 = 420;
-let variable = "this is a variable";
-console.log(`this is a ${variable}`);
-
-const constant = `some things need to be colored ${variable2}`;
-
-console.log(constant, variable);
-
-if (age !== 40 || variable2 === 420) {
-  console.log("you are not the right age");
-}
 
 const myObj = {
   prop: 12,
@@ -61,6 +48,20 @@ const myObj = {
     return prop + nested.prop + e;
   },
 };
+
+const turneryOps = age === 100 ? "old person" : "not that old";
+
+const brent = function () {};
+let lastName = "Morton";
+const age = 200;
+
+console.log(brent, lastName, age);
+
+let variable2 = 420;
+
+const constant = `some things need to be colored ${variable2}`;
+
+console.log(constant, variable);
 
 myObj.addProps(age);
 

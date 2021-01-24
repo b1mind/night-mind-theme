@@ -1,9 +1,45 @@
+@import "fonts";
+
+:root {
+  --clr: #000;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+element {
+  color: var(--clr);
+}
+
 .someClass {
   font-family: sans;
   font-family: serif;
+  font-size: 1rem;
 }
 
 #someID {
   width: auto;
   background: yellow;
+}
+
+p > p {
+  height: 100px;
+}
+
+p,
+p * p {
+  transform: translate(100px);
+}
+
+p:nth-child(2n) {
+  margin-left: -10px;
+}
+
+@media (max-width: 640px) {
+  .someClass {
+    height: 50%;
+  }
 }

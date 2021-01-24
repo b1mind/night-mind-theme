@@ -18,23 +18,17 @@
     age,
     addProps: function (e, index) {
       return prop + nested.prop + e;
-  },
-};
+    },
+  };
 </script>
-
-<svelte:head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</svelte>
 
 <main>
   <div class="class" data-theme="light">
     <div id="id" />
-    <Button {prop} prop2="this" on:click={() => {}}>
-      Click Me
-    </Button>
+    <Button {prop} prop2="this" on:click={() => {}}>Click Me</Button>
 
     {#each links as link (link.id)}
-      <a href={`https://${link.url}` }>{link.id}</a>
+      <a href={`"https://domain.com"${link.url}`}>{link.id}</a>
     {/each}
   </div>
 </main>
@@ -48,9 +42,13 @@
     width: 100%;
     color: white;
     font-size: var(--size);
-    &::after {
-
+    font-weight: bold;
+    &--another-class {
+      min-height: 50%;
+      color: #ffffff;
     }
-
+    &::after {
+      content: "";
+    }
   }
 </style>
