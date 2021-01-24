@@ -1,0 +1,10 @@
+{
+  "name": "Night Mind Test",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "include": "./night_defaults.json",
+  "semanticTokenColors": {
+    "variable.readonly": "#ff55ff",
+    "struct.readonly": "#ff55ff"
+  }
+}
