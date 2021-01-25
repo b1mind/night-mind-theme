@@ -9,6 +9,13 @@
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
-    "semiTWO": ["error", "always"]
+    "semiTWO": {
+      "name": "Storage type",
+      "scope": "storage.type.function.arrow.js"
+    },
+    "settings": {
+      "foreground": "#dc8cff",
+      "fontStyle": "normal"
+    }
   }
 }

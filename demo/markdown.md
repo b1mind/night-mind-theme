@@ -1,10 +1,12 @@
-# Cobalt2 Theme
+# Night Mind Theme
 
-> A Cobalt2 theme for VS Code.
+> A Night Mind theme for VS Code.
 
 ![Preview](images/preview.gif)
 
 # Installation
+
+_testing italic_
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 2. Launch Visual Studio Code

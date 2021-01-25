@@ -1,7 +1,5 @@
 import { imported } from "nothing";
-export default async function unreachableCode() {
-  return 10;
-}
+import React from "react";
 
 //never used
 import { nothing } from "nothing";
@@ -11,57 +9,70 @@ const mindArrows = () => {};
 doesNotExist.nope(`I'm never imported`);
 
 class Widget extends React.Component {}
-Widget;
-
+Widget.apply();
 imported.call("I am imported");
 
-const someNew = new Date().getDate();
 console.log(someNew.checking);
+
+export default async function unreachableCode(res) {
+  try {
+    let data = await res;
+    return data;
+  } catch (e) {
+    console.error(error);
+  }
+}
+
+const constant = `some things need to be colored ${variable2}`;
+let variable;
 
 function functionJunction(e, params, ...args) {
   const paramsConst = params;
   console.log(params, paramsConst);
 
-  if (e !== 40 || params.includes(420)) {
+  if (e !== 40 || (params.includes(420) && 0 >= 0)) {
+    const age = age <= 100 ? "not that old" : "old person";
     let someArgs = [...args];
 
-    const a = this.thing;
-    someArgs = a;
+    const someNew = new Date().getDate();
+    someArgs = [...someArgs, someNew];
+    const myObj = {
+      prop: 12,
+      nested: {
+        prop: 100,
+        some: () => {
+          return "some shit";
+        },
+      },
+      arraySure: [1, 3, 4, 5],
+      initialAge: age,
+      addProps: function (e, index) {
+        this.arraySure = [x, y, z];
+        return prop + nested.prop.some() + e;
+      },
+    };
+    return myObj;
   } else {
-    let variable = params.someObject;
-
-    console.log(`this is a ${variable}`);
+    if (params) {
+      variable = params.someObject;
+      if ((e) => 1 + 2 !== e) {
+        const a = this.thing;
+        return `this is a ${variable} what does ${a} do;`;
+      }
+    }
   }
 }
 
+let variable2 = 420;
+console.log(constant, variable);
 functionJunction();
 
-const myObj = {
-  prop: 12,
-  nested: {
-    prop: 100,
-  },
-  arraySure: [a, b, c, d],
-  initialAge: age,
-  age,
-  addProps: function (e, index) {
-    return prop + nested.prop + e;
-  },
-};
-
-const turneryOps = age === 100 ? "old person" : "not that old";
-
 const brent = function () {};
+
 let lastName = "Morton";
 const age = 200;
 
-console.log(brent, lastName, age);
-
-let variable2 = 420;
-
-const constant = `some things need to be colored ${variable2}`;
-
-console.log(constant, variable);
+console.log(age, brent, lastName);
 
 myObj.addProps(age);
 

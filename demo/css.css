@@ -15,8 +15,7 @@ element {
 }
 
 .someClass {
-  font-family: sans;
-  font-family: serif;
+  font-family: serif !important;
   font-size: 1rem;
 }
 

@@ -38,12 +38,16 @@
   --var: #ff50ff;
   --size: 1rem;
 
+  * {
+    box-sizing: border-box;
+  }
+ 
   main {
     width: 100%;
-    color: white;
+    color: red;
     font-size: var(--size);
     font-weight: bold;
-    &--another-class {
+    .another-class {
       min-height: 50%;
       color: #ffffff;
     }
