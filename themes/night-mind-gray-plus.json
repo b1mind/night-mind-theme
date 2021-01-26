@@ -1103,8 +1103,8 @@
     {
       "name": "Svelte resets",
       "scope": [
-        "entity.other.attribute-name.svelte",
         "support.class.component.svelte",
+        "meta.tag.start.svelte",
         "punctuation.definition.keyword.svelte"
       ],
       "settings": {
@@ -1112,11 +1112,19 @@
       }
     },
     {
+      "name": "Svelte Props",
+      "scope": ["meta.attribute.prop2.svelte"],
+      "settings": {
+        "foreground": "#e0b96b"
+      }
+    },
+    {
       "name": "Svelte actions",
       "scope": [
         "keyword.control.svelte",
         "keyword.control.conditional.svelte",
-        "punctuation.definition.keyword.svelte"
+        "punctuation.definition.keyword.svelte",
+        "keyword.other.animation.svelte"
       ],
       "settings": {
         "foreground": "#dc8cff"
