@@ -422,13 +422,6 @@
         "foreground": "#e0b96b"
       }
     },
-    {
-      "name": "Variable",
-      "scope": "variable.other.readwrite",
-      "settings": {
-        "fontStyle": "normal"
-      }
-    },
 
     {
       "name": "User-defined constant",
@@ -1087,7 +1080,7 @@
 
     {
       "name": "JavaScript parameters",
-      "scope": ["variable.parameter", "entity.name.variable"],
+      "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#e7ca8d",
         "fontStyle": "italic"
@@ -1197,8 +1190,11 @@
     {
       "name": "JavaScript[React] Variable readwrite",
       "scope": [
+        "meta.varsingle-variable.expr.js",
+        "meta.embedded.line.js",
         "meta.var.expr.js",
         "meta.array.literal.js",
+        "meta.functions.expression.js",
         "meta.definition.variable.js"
       ],
       "settings": {
@@ -1207,8 +1203,17 @@
       }
     },
     {
+      "name": "params in scope",
+      "scope": ["meta.objectliteral.js"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "JavaScript[React] Variable Other Object",
       "scope": [
+        "meta.functions.js",
+        "meta.embedded.block",
         "variable.other.object.js",
         "variable.other.object.jsx",
         "variable.object.property.js",
@@ -1451,7 +1456,7 @@
       "name": "Markdown Headings",
       "scope": "markup.heading.markdown",
       "settings": {
-        "foreground": "#9696FF",
+        "foreground": "#64b4fa",
         "fontStyle": "bold"
       }
     },
@@ -1459,7 +1464,7 @@
       "name": "Markdown Italics",
       "scope": "markup.italic.markdown",
       "settings": {
-        "foreground": "#FFB482",
+        "foreground": "#9d9d9d",
         "fontStyle": "italic"
       }
     },
@@ -1467,7 +1472,7 @@
       "name": "Markdown Bold",
       "scope": "markup.bold.markdown",
       "settings": {
-        "foreground": "#FFB482",
+        "foreground": "#cecece",
         "fontStyle": "bold"
       }
     },
@@ -1496,14 +1501,30 @@
         "string.other.link.description.markdown"
       ],
       "settings": {
-        "foreground": "#e0b96b"
+        "foreground": "#9696ff"
+      }
+    },
+    {
+      "name": "Markdown punctuation",
+      "scope": [
+        "punctuation.definition.quote.begin.markdown",
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#dc8cff"
       }
     },
     {
       "name": "Markdown MetaData Punctuation",
-      "scope": ["punctuation.definition.metadata.markdown"],
+      "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.metadata.markdown"
+      ],
       "settings": {
-        "foreground": "#CECECE"
+        "foreground": "#CECECE",
+        "fontStyle": "bold"
       }
     },
     {
