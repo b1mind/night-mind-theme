@@ -12,18 +12,24 @@ html(lang="en")
 
     header
       nav
-        ul
+        ul.nav-header
           li
-            a(href="http://")
+            a.btn(href="http://")
 
-    main#id-selector
+    main#main-home
 
-    h1 Pug
-    .class-selector
-      while var > 0
-      -var--
+      h1.headline Pug Rox
+        p.class-selector
+          while var > 0
+          -var--
 
     footer
       ul
         li
           a(href="")
+
+  script(defer src="./scripts/js/*.js")
+  script
+    -const var = 420
+    if(var !== 420)
+      console.log('shitty')

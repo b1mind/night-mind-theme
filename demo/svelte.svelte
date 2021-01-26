@@ -1,35 +1,53 @@
 <script>
-  import { Button } from "Component";
+  import { Button } from "./components/Button.svelte";
 
   const comeOn = "this should work";
+  let variable = 300;
+
   function someFun(e) {
-    console.log(e);
+    console.log(e, variable);
+
+    let boolean = false;
+    let ternary = !boolean ? "a don't know" : "i know";
+
+    if (ternary) {
+      return comeOn;
+    } else {
+      console.log(comeOn);
+    }
   }
 
-  console.log(someFun(comeOn));
+  someFun();
 
   const myObj = {
+    age: 38,
     prop: 12,
     nested: {
       prop: 100,
     },
     arraySure: [a, b, c, d],
     initialAge: age,
-    age,
-    addProps: function (e, index) {
-      return prop + nested.prop + e;
+    addProps: function (notUsed, index) {
+      return prop + (nested.prop / age) * index;
     },
   };
+  console.log(myObj);
+  anotherMyObj = new myObj();
 </script>
 
 <main>
   <div class="class" data-theme="light">
     <div id="id" />
-    <Button {prop} prop2="this" on:click={() => {}}>Click Me</Button>
-
-    {#each links as link (link.id)}
-      <a href={`"https://domain.com"${link.url}`}>{link.id}</a>
-    {/each}
+    {#if age === 100 || myObj.prop >= 0}
+      <Button>Sign Up</Button>
+    {:else}
+      <Button {prop} prop2="this" use:someFun={{}} on:click={() => {}}>
+        Click Me
+      </Button>
+      {#each links as link (link.id)}
+        <a href={`"https://domain.com"${link.url}`}>{link.id}</a>
+      {/each}
+    {/if}
   </div>
 </main>
 
@@ -41,7 +59,7 @@
   * {
     box-sizing: border-box;
   }
- 
+
   main {
     width: 100%;
     color: red;

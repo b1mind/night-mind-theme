@@ -1,5 +1,5 @@
 import { imported } from "nothing";
-import React from "react";
+import * as React from "React";
 
 //never used
 import { nothing } from "nothing";
@@ -12,8 +12,6 @@ class Widget extends React.Component {}
 Widget.apply();
 imported.call("I am imported");
 
-console.log(someNew.checking);
-
 export default async function unreachableCode(res) {
   try {
     let data = await res;
@@ -22,6 +20,8 @@ export default async function unreachableCode(res) {
     console.error(error);
   }
 }
+
+let something = JSON.parse(res);
 
 const constant = `some things need to be colored ${variable2}`;
 let variable;
@@ -39,19 +39,22 @@ function functionJunction(e, params, ...args) {
     const myObj = {
       prop: 12,
       nested: {
-        prop: 100,
-        some: () => {
-          return "some shit";
+        property: {
+          boolean: true,
+          some: () => {
+            return "some shit";
+          },
         },
       },
       arraySure: [1, 3, 4, 5],
       initialAge: age,
       addProps: function (e, index) {
         this.arraySure = [x, y, z];
-        return prop + nested.prop.some() + e;
+        return prop + (nested.prop / age) * index;
       },
     };
-    return myObj;
+    boolean = !myObj.nested.property.boolean;
+    variable = myObj;
   } else {
     if (params) {
       variable = params.someObject;
@@ -76,4 +79,12 @@ console.log(age, brent, lastName);
 
 myObj.addProps(age);
 
-turneryOps;
+function switchStatement() {
+  switch (key) {
+    case value:
+      break;
+
+    default:
+      break;
+  }
+}
