@@ -16,7 +16,7 @@ export default async function unreachableCode(res) {
   try {
     let data = await res;
     return data;
-  } catch (e) {
+  } catch (error) {
     console.error(error);
   }
 }
@@ -53,7 +53,9 @@ function functionJunction(e, params, ...args) {
         return prop + (nested.prop / age) * index;
       },
     };
-    boolean = !myObj.nested.property.boolean;
+
+    let boolean = !myObj.nested.property.boolean;
+
     variable = myObj;
   } else {
     if (params) {
@@ -67,7 +69,11 @@ function functionJunction(e, params, ...args) {
 }
 
 let variable2 = 420;
-console.log(constant, variable);
+variable2 = 421;
+
+constant.anchor();
+
+console.log(constant.length, variable.length);
 functionJunction();
 
 const brent = function () {};

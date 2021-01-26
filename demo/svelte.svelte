@@ -4,18 +4,21 @@
   const comeOn = "this should work";
   let variable = 300;
 
-  function someFun(e) {
+  function someFun(dex) {
+    let someIndex = dex;
     console.log(e, variable);
 
     let boolean = false;
     let ternary = !boolean ? "a don't know" : "i know";
 
     if (ternary) {
-      return comeOn;
+      return;
     } else {
       console.log(comeOn);
     }
   }
+
+  variable = 420;
 
   someFun();
 
@@ -41,11 +44,17 @@
     {#if age === 100 || myObj.prop >= 0}
       <Button>Sign Up</Button>
     {:else}
-      <Button {prop} prop2="this" use:someFun={{}} on:click={() => {}}>
-        Click Me
-      </Button>
+      <Button
+        {prop}
+        prop2={words}
+        animate:flip={{}}
+        in:fly={{}}
+        use:someFun={{}}
+        on:click={() => {}}
+      >Click Me</Button>
+
       {#each links as link (link.id)}
-        <a href={`"https://domain.com"${link.url}`}>{link.id}</a>
+        <a href={`"https://domain.com"${link}`}>{link}</a>
       {/each}
     {/if}
   </div>
