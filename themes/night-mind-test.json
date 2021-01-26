@@ -2,7 +2,12 @@
   "name": "Night Mind Test",
   "type": "dark",
   "include": "./night_defaults.json",
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
+  "semanticTokenColors": {
+    "number": { "foreground": "#ff50ff" },
+    "variable.parameter": { "foreground": "#e7ca8d", "fontStyle": "italic" },
+    "variable.readonly": { "foreground": "#e0b96b", "fontStyle": "normal" }
+  },
   "tokenColors": [
     {
       "name": "Global settings",
@@ -188,12 +193,7 @@
 
     {
       "name": "Library class/type",
-      "scope": [
-        "support.constant.json",
-        "support.type",
-        "support.class",
-        "entity.name.type.class"
-      ],
+      "scope": ["support.constant.json", "support.type", "support.class"],
       "settings": {
         "foreground": "#f9826c",
         "fontStyle": "normal"
@@ -1016,6 +1016,7 @@
     {
       "name": "TypeScript[React] Variables and Object Properties",
       "scope": [
+        "variable.other.readwrite.alias.js",
         "variable.other.readwrite.alias.ts",
         "variable.other.readwrite.alias.tsx",
         "variable.other.readwrite.ts",
@@ -1056,6 +1057,7 @@
         "variable.other.meta.import.js",
         "meta.import.js variable.other",
         "variable.other.meta.export.js",
+        "constant.language.import-export-all",
         "meta.export.js variable.other"
       ],
       "settings": {
@@ -1072,7 +1074,11 @@
 
     {
       "name": "JavaScript Entity Name Type",
-      "scope": ["entity.name.type.js", "entity.name.type.module.js"],
+      "scope": [
+        "meta.function-call.js",
+        "entity.name.type.js",
+        "entity.name.type.module.js"
+      ],
       "settings": {
         "foreground": "#e0b96b"
       }
@@ -1188,13 +1194,21 @@
       }
     },
     {
+      "name": "JavaScript Function expression",
+      "scope": ["meta.export.default", "meta.functions.expression.js"],
+      "settings": {
+        "foreground": "#e7ca8d",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "JavaScript[React] Variable readwrite",
       "scope": [
-        "meta.varsingle-variable.expr.js",
+        "meta.object-literal.key.js",
+        "meta.var-single-variable.expr.js",
         "meta.embedded.line.js",
         "meta.var.expr.js",
         "meta.array.literal.js",
-        "meta.functions.expression.js",
         "meta.definition.variable.js"
       ],
       "settings": {
@@ -1212,7 +1226,9 @@
     {
       "name": "JavaScript[React] Variable Other Object",
       "scope": [
+        "variable.other.readwrite.js",
         "meta.functions.js",
+        "meta.block.js",
         "meta.embedded.block",
         "variable.other.object.js",
         "variable.other.object.jsx",
