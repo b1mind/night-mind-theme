@@ -22,6 +22,7 @@ export default async function unreachableCode(res) {
 }
 
 let something = JSON.parse(res);
+const date = Date().getDate();
 
 const constant = `some things need to be colored ${variable2}`;
 let variable;

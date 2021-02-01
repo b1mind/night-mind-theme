@@ -40,5 +40,6 @@ p:nth-child(2n) {
 @media (max-width: 640px) {
   .someClass {
     height: 50%;
+    color: #000;
   }
 }

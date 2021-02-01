@@ -1,7 +1,7 @@
 <script>
   import { Button } from "./components/Button.svelte";
 
-  const comeOn = "this should work";
+  const comeOn = `this should work`;
   let variable = 300;
 
   function someFun(dex) {
@@ -47,11 +47,12 @@
       <Button
         {prop}
         prop2={words}
-        animate:flip={{}}
         in:fly={{}}
         use:someFun={{}}
         on:click={() => {}}
-      >Click Me</Button>
+      >
+        Click Me
+      </Button>
 
       {#each links as link (link.id)}
         <a href={`"https://domain.com"${link}`}>{link}</a>
