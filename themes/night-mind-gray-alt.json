@@ -108,14 +108,6 @@
     },
 
     {
-      "name": "Pug Classes",
-      "scope": "entity.other.attribute-name.class.pug",
-      "settings": {
-        "foreground": "#e7ca8d"
-      }
-    },
-
-    {
       "name": "Support Variable Property",
       "scope": "support.variable.property",
       "settings": {
@@ -149,7 +141,7 @@
 
     {
       "name": "Constant Other Color",
-      "scope": "constant.other.color",
+      "scope": ["support.constant.color", "constant.other.color"],
       "settings": {
         "foreground": "#CECECE"
       }
@@ -195,7 +187,7 @@
       "name": "Library class/type",
       "scope": ["support.constant.json", "support.type", "support.class"],
       "settings": {
-        "foreground": "#f9826c",
+        "foreground": "#9696FF",
         "fontStyle": "normal"
       }
     },
@@ -223,7 +215,7 @@
         "variable.other.instance",
         "variable.readwrite.instance",
         "variable.other.readwrite.instance",
-        "variable.other.property"
+        "variable.otherffb482property"
       ],
       "settings": {
         "foreground": "#e0b96b"
@@ -313,6 +305,7 @@
     {
       "name": "Keyword Control Conditional",
       "scope": [
+        "keyword.operator.new.js",
         "keyword.control.conditional.js",
         "keyword.control.conditional.ts",
         "keyword.control.switch.js",
@@ -360,7 +353,7 @@
       "name": "Meta Property Name",
       "scope": "meta.property-name",
       "settings": {
-        "foreground": "#00b1ff"
+        "foreground": "#cecece"
       }
     },
 
@@ -486,7 +479,6 @@
         "punctuation",
         "punctuation.separator",
         "meta.property-list.css",
-        "support.constant.color.w3c-standard-color-name.css",
         "meta.property-list.sass",
         "punctuation.accessor",
         "punctuation.accessor"
@@ -706,7 +698,7 @@
       "name": "Number",
       "scope": ["constant.numeric", "constant.character.numeric"],
       "settings": {
-        "foreground": "#bfbfbf",
+        "foreground": "#cecece",
         "fontStyle": "normal"
       }
     },
@@ -721,7 +713,7 @@
       "name": "Boolean",
       "scope": ["constant.language.boolean"],
       "settings": {
-        "foreground": "#f9826c"
+        "foreground": "#ffb482"
       }
     },
     {
@@ -756,7 +748,8 @@
         "entity.other.attribute-name.id.css.sass"
       ],
       "settings": {
-        "foreground": "#64b4fa"
+        "foreground": "#64b4fa",
+        "fontStyle": "normal"
       }
     },
     {
@@ -770,15 +763,17 @@
       }
     },
     {
-      "name": "css class selector",
+      "name": "css and pug class selector",
       "scope": [
+        "entity.other.attribute-name.class.pug",
         "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.class.css punctuation.definition.entity.css",
         "entity.other.attribute-name.class.css.sass",
         "entity.other.attribute-name.class.scss"
       ],
       "settings": {
-        "foreground": "#e7ca8d"
+        "foreground": "#e7ca8d",
+        "fontStyle": "normal"
       }
     },
     {
@@ -835,12 +830,14 @@
         "support.constant.font-name.css",
         "support.constant.property-value.css",
         "keyword.other.unit.css",
-        "keyword.other.unit"
+        "keyword.other.unit",
+        "punctuation.definition.constant.css"
       ],
       "settings": {
         "foreground": "#e0b96b"
       }
     },
+
     {
       "name": "Stylesheet Numbers and Units",
       "scope": [
@@ -848,11 +845,10 @@
         "keyword.other.unit.scss",
         "keyword.other.unit.css.sass",
         "constant.numeric.css",
-        "punctuation.definition.constant.css",
         "constant.numeric.css.sass"
       ],
       "settings": {
-        "foreground": "#b2b2b2"
+        "foreground": "#cecece"
       }
     },
     {
@@ -995,10 +991,7 @@
     },
     {
       "name": "Object literla key",
-      "scope": [
-        "meta.object.member.js meta.object-literal.key.js",
-        "variable.other.property.js"
-      ],
+      "scope": ["meta.object.member.js meta.object-literal.key.js"],
       "settings": {
         "foreground": "#CECECE"
       }
@@ -1023,6 +1016,8 @@
         "variable.other.readwrite.tsx",
         "variable.other.object.ts",
         "variable.other.object.tsx",
+        "variable.other.property.js",
+        "variable.other.property.ts",
         "variable.object.property.ts",
         "variable.object.property.tsx",
         "variable.other.ts",
@@ -1329,7 +1324,7 @@
       "name": "Specific JSON Property values like null",
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
       "settings": {
-        "foreground": "#FF7878"
+        "foreground": "#ffb482"
       }
     },
     {

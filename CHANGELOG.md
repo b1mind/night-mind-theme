@@ -2,6 +2,10 @@
 
 **Keep in mind this is a preview**
 
+## v0.0.7
+
+- added alt colors for textmate [alt-gray]
+
 ## v0.0.6
 
 - added screenshots

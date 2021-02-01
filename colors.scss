@@ -1,14 +1,16 @@
 :root {
   // main colors
   --clr-highlight: #ff50ff;
+  --purple-dark: #7b56ff;
+  --clr-highlight-secondary: #dc8cff;
   --highlight-dark: #960096;
+  --purple-dark: #9696ff;
   --purple: #8694e8;
   --purple-light: #748fee;
   --blue: #64b4fa;
   --lightblue: #9cd9ff;
-
+  --blue: #00b1ff;
   // others
-  --mmm: #dc8cff;
 
   --functions: #00dcdc;
   --this: #00b1ff;
@@ -17,11 +19,16 @@
   --um: #e7ca8d;
   --um: #e0a93d;
   --um: #d39033;
-  --add: #a1d884;
-  --add2: #6eb450;
-  --this: #d88282;
   --this: #ffb482;
+  --add: #9dda9a;
+  --add: #a1d884;
+  --mmm: #aae682;
+  --add2: #6eb450;
+  --this: #c46207;
+  --some: #ff7878;
+  --some: #f9826c;
   --conflict: #f05050;
+  --svelte: #ff8040;
 
   /* darks */
   --background: #1b1b1b;
@@ -38,3 +45,10 @@
 
   // text colors
 }
+
+//notes:
+
+/* 
+  "meta.embedded.block.svelte", // effects sass var: value colors?
+
+ */

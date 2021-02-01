@@ -6,7 +6,10 @@ This theme is my take on my favorite dark themes, with a focus on where focus is
 
 ⚠ This theme is in active development ⚠
 
-Main Layout
+Atl Color Layout [alt-gray]
+![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-alt-main.png)
+
+Old Color Layout [gray]
 ![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-main.png)
 
 Focus elements - Dimmed git highlights, bracket and indent highlights, as well as object highlighting \*(not on all word highlights!)

@@ -33,9 +33,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night Mind [+gray]",
+        "label": "Night Mind [alt-gray]",
         "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-gray-plus.json"
+        "path": "./themes/night-mind-gray-alt.json"
       },
       {
         "label": "Night Mind [gray]",
