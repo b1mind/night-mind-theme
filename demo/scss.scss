@@ -21,6 +21,16 @@ body {
   margin: 0;
 }
 
+.some-class {
+  p {
+    margin: 0;
+  }
+
+  &-another {
+    color: var(--color);
+  }
+}
+
 a {
   text-decoration: none;
 }
