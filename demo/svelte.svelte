@@ -2,7 +2,8 @@
   import { Button } from "./components/Button.svelte";
 
   const comeOn = `this should work`;
-  let variable = 300;
+
+  export let variable = 300;
 
   function someFun(dex) {
     let someIndex = dex;
@@ -17,6 +18,8 @@
       console.log(comeOn);
     }
   }
+
+  Math.abs(400, 500);
 
   variable = 420;
 

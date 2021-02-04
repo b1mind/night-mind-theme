@@ -10,6 +10,7 @@ doesNotExist.nope(`I'm never imported`);
 
 class Widget extends React.Component {}
 Widget.apply();
+
 imported.call("I am imported");
 
 export default async function unreachableCode(res) {
@@ -21,8 +22,10 @@ export default async function unreachableCode(res) {
   }
 }
 
+const button = document.querySelector("button");
+
 let something = JSON.parse(res);
-const date = Date().getDate();
+const date = Date.getDate();
 
 const constant = `some things need to be colored ${variable2}`;
 let variable;
@@ -35,7 +38,7 @@ function functionJunction(e, params, ...args) {
     const age = age <= 100 ? "not that old" : "old person";
     let someArgs = [...args];
 
-    const someNew = new Date().getDate();
+    const someNew = new Date();
     someArgs = [...someArgs, someNew];
     const myObj = {
       prop: 12,
@@ -51,11 +54,11 @@ function functionJunction(e, params, ...args) {
       initialAge: age,
       addProps: function (e, index) {
         this.arraySure = [x, y, z];
-        return prop + (nested.prop / age) * index;
+        return prop + (nested.property / age) * index;
       },
     };
 
-    let boolean = !myObj.nested.property.boolean;
+    let boolean = !myObj.arraySure;
 
     variable = myObj;
   } else {
@@ -74,7 +77,7 @@ variable2 = 421;
 
 constant.anchor();
 
-console.log(constant.length, variable.length);
+console.log(myObj.length, myObj.length);
 functionJunction();
 
 const brent = function () {};
