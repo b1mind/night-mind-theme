@@ -9,14 +9,13 @@ This theme is my take on my favorite dark themes, with a focus on where focus is
 Atl Color Layout [alt-gray]
 ![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-alt-main.png)
 
-Old Color Layout [gray]
 ![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-main.png)
 
 Focus elements - Dimmed git highlights, bracket and indent highlights, as well as object highlighting \*(not on all word highlights!)
 
 ![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-editor-focus2.png)
 
-Highlighting - Active/Inactive
+Highlighting - Inactive/Active
 
 ![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-selection2.png)
 
@@ -40,8 +39,9 @@ Used with BracketPair Colorizor2 extension (theme styles indent lines)
   "bracket-pair-colorizer-2.unmatchedScopeColor": "#f05050"
 ```
 
-## To Come
+## Notes
 
+Old Color Layout will be available still as [old-gray]
 Going to revisit some of the git colors for explorer and problem highlights
 Other backgrounds / focus colors
 
