@@ -2,6 +2,10 @@
 
 **Still in active development**
 
+## v0.1.0
+
+- bug fix, root of variable props in js/ts not coloring
+
 ## v0.0.9
 
 - readme fixes

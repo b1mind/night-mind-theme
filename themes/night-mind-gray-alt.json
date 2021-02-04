@@ -981,7 +981,7 @@
         "variable.object.property.tsx"
       ],
       "settings": {
-        "foreground": "#e0b96",
+        "foreground": "#e0b96b",
         "fontStyle": "normal"
       }
     },
@@ -1239,6 +1239,7 @@
         "variable.other.object.js",
         "variable.other.object.jsx",
         "variable.object.property.js",
+        "variable.object.property.ts",
         "variable.other.object.property.js",
         "variable.object.property.jsx"
       ],
