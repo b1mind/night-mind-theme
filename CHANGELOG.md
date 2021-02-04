@@ -2,6 +2,11 @@
 
 **Still in active development**
 
+## v0.0.9
+
+- readme fixes
+- support variable.property correction _still looking at making different_
+
 ## v0.0.8
 
 - updated readme with more info

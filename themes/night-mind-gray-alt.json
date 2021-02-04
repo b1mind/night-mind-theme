@@ -110,7 +110,7 @@
       "name": "Support Variable Property",
       "scope": "support.variable.property",
       "settings": {
-        "foreground": "#64b4fa"
+        "foreground": "#e0b96b"
       }
     },
 
