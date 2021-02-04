@@ -28,11 +28,6 @@ p > p {
   height: 100px;
 }
 
-p,
-p * p {
-  transform: translate(100px);
-}
-
 p:nth-child(2n) {
   margin-left: -10px;
 }
