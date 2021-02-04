@@ -7,7 +7,6 @@
     "name": "Brent Morton"
   },
   "version": "0.0.7",
-  "preview": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/b1m1nd/night-mind-theme"
@@ -15,9 +14,6 @@
   "bugs": {
     "url": "https://github.com/b1m1nd/night-mind-theme/issues",
     "email": "b@1mind.dev"
-  },
-  "engines": {
-    "vscode": "^1.52.0"
   },
   "categories": [
     "Themes"
@@ -27,7 +23,7 @@
     "Dark Theme",
     "Night Theme",
     "Night Mind",
-    "1 Mind",
+    "1Mind",
     "b1m1nd"
   ],
   "contributes": {

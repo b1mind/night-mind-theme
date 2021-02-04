@@ -4,9 +4,8 @@
   "include": "./night_defaults.json",
   "semanticHighlighting": false,
   "semanticTokenColors": {
-    "number": { "foreground": "#ff50ff" },
     "variable.parameter": { "foreground": "#e7ca8d", "fontStyle": "italic" },
-    "variable.readonly": { "foreground": "#e0b96b", "fontStyle": "normal" }
+    "variable.readonly": { "foreground": "#e0a93d", "fontStyle": "normal" }
   },
   "tokenColors": [
     {
@@ -187,7 +186,7 @@
       "name": "Library class/type",
       "scope": ["support.constant.json", "support.type", "support.class"],
       "settings": {
-        "foreground": "#9696FF",
+        "foreground": "#9cd9ff",
         "fontStyle": "normal"
       }
     },
@@ -196,7 +195,8 @@
       "name": "Library (function & constant)",
       "scope": ["support.function", "support.constant"],
       "settings": {
-        "foreground": "#9696FF"
+        "foreground": "#9696FF",
+        "fontStyle": "normal"
       }
     },
 
@@ -224,9 +224,10 @@
 
     {
       "name": "Support Constant Math",
-      "scope": "support.constant.math",
+      "scope": ["support.constant.math"],
       "settings": {
-        "foreground": "#ff7878"
+        "foreground": "#9cd9ff",
+        "fontStyle": "normal"
       }
     },
 
@@ -305,11 +306,13 @@
     {
       "name": "Keyword Control Conditional",
       "scope": [
+        "storage.modifier.async.js",
         "keyword.operator.new.js",
         "keyword.control.conditional.js",
         "keyword.control.conditional.ts",
         "keyword.control.switch.js",
-        "keyword.control.switch.ts"
+        "keyword.control.switch.ts",
+        "keyword.control.trycatch.js"
       ],
       "settings": {
         "foreground": "#DC8CFF",
@@ -321,7 +324,8 @@
       "name": "loops",
       "scope": ["keyword.control.loop"],
       "settings": {
-        "foreground": "#DC8CFF"
+        "foreground": "#DC8CFF",
+        "fontStyle": "italic"
       }
     },
 
@@ -375,11 +379,11 @@
         "entity.other.inherited-class.js",
         "meta.class entity.name.type.class.tsx",
         "entity.name.type.class.cpp",
-        "entity.name.type.inherited.cpp"
+        "entity.name.type.inherited.cpp",
+        "entity.name.type.js"
       ],
       "settings": {
-        "foreground": "#9696ff",
-        "fontStyle": "normal"
+        "foreground": "#9696ff"
       }
     },
     {
@@ -769,7 +773,8 @@
         "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.class.css punctuation.definition.entity.css",
         "entity.other.attribute-name.class.css.sass",
-        "entity.other.attribute-name.class.scss"
+        "entity.other.attribute-name.class.scss",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "#e7ca8d",
@@ -967,11 +972,17 @@
       }
     },
     {
-      "name": "javascript portotype methods",
-      "scope": ["support.variable.property.js"],
+      "name": "javascript property methods",
+      "scope": [
+        "support.variable.property.js",
+        "variable.other.property.js",
+        "variable.other.property.ts",
+        "variable.object.property.ts",
+        "variable.object.property.tsx"
+      ],
       "settings": {
-        "foreground": "#9696FF",
-        "fontStyle": "italic"
+        "foreground": "#e0b96",
+        "fontStyle": "normal"
       }
     },
     {
@@ -1016,10 +1027,6 @@
         "variable.other.readwrite.tsx",
         "variable.other.object.ts",
         "variable.other.object.tsx",
-        "variable.other.property.js",
-        "variable.other.property.ts",
-        "variable.object.property.ts",
-        "variable.object.property.tsx",
         "variable.other.ts",
         "variable.other.tsx",
         "variable.tsx",
@@ -1061,7 +1068,7 @@
     },
     {
       "name": "javascript function execution",
-      "scope": ["meta.function-call.js"],
+      "scope": ["meta.definition.function.js"],
       "settings": {
         "fontStyle": "italic"
       }
@@ -1069,13 +1076,9 @@
 
     {
       "name": "JavaScript Entity Name Type",
-      "scope": [
-        "meta.function-call.js",
-        "entity.name.type.js",
-        "entity.name.type.module.js"
-      ],
+      "scope": ["meta.function-call.js", "entity.name.type.module.js"],
       "settings": {
-        "foreground": "#e0b96b"
+        "fontStyle": "normal"
       }
     },
 
@@ -1215,7 +1218,7 @@
         "meta.definition.variable.js"
       ],
       "settings": {
-        "foreground": "#e7ca8d",
+        "foreground": "#e0b96b",
         "fontStyle": "normal"
       }
     },
@@ -1236,6 +1239,7 @@
         "variable.other.object.js",
         "variable.other.object.jsx",
         "variable.object.property.js",
+        "variable.other.object.property.js",
         "variable.object.property.jsx"
       ],
       "settings": {
@@ -1258,6 +1262,7 @@
     {
       "name": "Keyword, imports, returns javascript and typescript",
       "scope": [
+        "keyword.control.default.js",
         "keyword.control.import.js",
         "keyword.control.import.ts",
         "keyword.control.import.tsx",

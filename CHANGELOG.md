@@ -1,6 +1,17 @@
 # Change Log
 
-**Keep in mind this is a preview**
+**Still in active development**
+
+## v0.0.8
+
+- updated readme with more info
+- prep for alt-gray becoming default
+
+  [alt-gray] changes
+
+  - changed try/catch colors and async await colors to match
+  - changed JSON,DATE,MATH colors to be same light blue
+  - fixed &-class prop colors for scss
 
 ## v0.0.7
 

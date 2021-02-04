@@ -2,7 +2,7 @@
 
 This theme is my take on my favorite dark themes, with a focus on where focus is. Rich text elements, with a dim UI and bright focus color used to direct attention to actions. (currently pink, but will have options someday.)
 
-## Preview Theme (alpha)
+## Preview Theme
 
 ⚠ This theme is in active development ⚠
 
@@ -14,15 +14,31 @@ Old Color Layout [gray]
 
 Focus elements - Dimmed git highlights, bracket and indent highlights, as well as object highlighting \*(not on all word highlights!)
 
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-editor-focus.png)
+![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-editor-focus2.png)
 
 Highlighting - Active/Inactive
 
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-selection.png)
+![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-selection2.png)
 
 Matching word highlight is subtle, while search highlight stands out
 
 ![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-highlight.gif)
+
+## Customize
+
+Used with BracketPair Colorizor2 extension (theme styles indent lines)
+
+```json
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+  "bracket-pair-colorizer-2.colorMode": "Independent",
+  "bracket-pair-colorizer-2.colors": [
+    "#7b56ff",
+    "#00b1ff",
+    "#9cd9ff"
+  ],
+  "bracket-pair-colorizer-2.unmatchedScopeColor": "#f05050"
+```
 
 ## To Come
 
