@@ -1,11 +1,14 @@
 Todo: 
-  ☐ restyle expoler text/highlight
-  ☐ set up template with default (like default themes do)
-  ☐ learn how to use the new semantic styles
-  ☐ Issue: Semantic styles make const and let different colors, params italic
-  ☐ style icons in the top left of active window
+  ☐ take new screenshots
+  ☐ another gray/highlight color theme?
+  ☐ update readme (add how to difine custom colors?)
+  ☐ color icons in the top right of active window
 
 Archive:
+  ✔ restyle expoler text/highlight @done(21-02-03 17:39) @project(Todo)
+  ✔ set up template with default (like default themes do) @done(21-02-03 17:36) @project(Todo)
+  ✔ learn how to use the new semantic styles @done(21-02-03 17:36) @project(Todo)
+  ✔ Issue: Semantic styles make const and let different colors, params italic @done(21-02-03 17:36) @project(Todo)
   ✔ style more of the UI components @done(21-01-22 01:32) @project(Todo)
   ✔ add more of the highlight color @done(21-01-22 01:31) @project(Todo)
   ✔ change tab underline to white @done(21-01-22 01:30) @project(Todo)
