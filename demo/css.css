@@ -17,11 +17,13 @@ element {
 .someClass {
   font-family: serif !important;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 #someID {
   width: auto;
   background: yellow;
+  cursor: auto;
 }
 
 p > p {

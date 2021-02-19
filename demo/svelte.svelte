@@ -49,7 +49,7 @@
     {:else}
       <Button
         {prop}
-        prop2={words}
+        prop2={words.test}
         in:fly={{}}
         use:someFun={{}}
         on:click={() => {}}
@@ -78,12 +78,15 @@
     color: red;
     font-size: var(--size);
     font-weight: bold;
+
     .another-class {
       min-height: 50%;
       color: #ffffff;
     }
+
     &::after {
       content: "";
+      cursor: pointer;
     }
   }
 </style>

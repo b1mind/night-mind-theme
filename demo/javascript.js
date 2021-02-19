@@ -34,6 +34,11 @@ function functionJunction(e, params, ...args) {
   const paramsConst = params;
   console.log(params, paramsConst);
 
+  const test = document.querySelector(".test");
+  test.addEventListener("click", (e) => {
+    console.log(args);
+  });
+
   if (e !== 40 || (params.includes(420) && 0 >= 0)) {
     const age = age <= 100 ? "not that old" : "old person";
     let someArgs = [...args];
