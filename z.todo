@@ -1,21 +1,28 @@
 Todo: 
+  ☐ color JSON.Math.Date different... also max-width CSS
+  ☐ update package.json with more stuff. (bages, ect)
   ☐ take new screenshots (more detail on UI)
-  ✔ purple background theme started? @done(21-02-20 23:00)
-  ☐ finish purple borders and replacing rest of the unwanted gray
-  ☐ another gray/highlight color theme?
   ☐ update readme (add how to difine custom colors?)
-  ☐ update package.json with more stuff.
-  ☐ color icons in the top right of active window
-  ✔ sync todo with notion todo @done(21-02-20 23:00)
-  ☐ color scroll bar borders different
-  ☐ color scroll bar different period....
+  ☐ bottom panel background
   ☐ input box errors? currently yellow
   ☐ peek def window color, git view color.
-  ☐ find out about hierarchy and how/if it matters
   ☐ style dubug?
+
+Research:
+  ☐ color icons in the top right of active window
+  ☐ find out about hierarchy and how/if it matters
+  ☐ check how other themes are setup with settings/abstractions
+
+Wishlist:
+  ☐ another gray/highlight color theme?
   ☐ filter in explorer/side bar needs colored
 
 Archive:
+  ✔ color scroll bar borders different @done(21-02-21 04:10) @project(Todo)
+  ✔ color scroll bar different period.... @done(21-02-21 04:10) @project(Todo)
+  ✔ finish purple borders and replacing rest of the unwanted gray @done(22-02-21 04:11) @project(Todo)
+  ✔ purple background theme started? @done(21-02-20 23:00) @project(Todo)
+  ✔ sync todo with notion todo @done(21-02-20 23:00) @project(Todo)
   ✔ restyle expoler text/highlight @done(21-02-03 17:39) @project(Todo)
   ✔ set up template with default (like default themes do) @done(21-02-03 17:36) @project(Todo)
   ✔ learn how to use the new semantic styles @done(21-02-03 17:36) @project(Todo)

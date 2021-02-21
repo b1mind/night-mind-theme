@@ -1,5 +1,5 @@
 {
-  "name": "Night Mind Test",
+  "name": "Night Mine deepPurple",
   "type": "dark",
   "include": "./defaults_purple.json",
   "semanticHighlighting": false,
@@ -7,6 +7,7 @@
     "variable.parameter": { "foreground": "#e0b96b", "fontStyle": "italic" },
     "variable.readonly": { "foreground": "#e0a93d", "fontStyle": "normal" }
   },
+
   "tokenColors": [
     {
       "name": "Global settings",
@@ -14,6 +15,7 @@
         "background": "#1B1B1B"
       }
     },
+
     {
       "name": "normalize font style of certain components",
       "scope": [
