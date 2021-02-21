@@ -19,6 +19,9 @@
     }
   }
 
+  $: test
+  $store
+
   Math.abs(400, 500);
 
   variable = 420;

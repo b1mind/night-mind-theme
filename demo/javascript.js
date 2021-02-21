@@ -13,6 +13,8 @@ Widget.apply();
 
 imported.call("I am imported");
 
+Math.random();
+
 export default async function unreachableCode(res) {
   try {
     let data = await res;
@@ -47,6 +49,7 @@ function functionJunction(e, params, ...args) {
     someArgs = [...someArgs, someNew];
     const myObj = {
       prop: 12,
+      tempLit: `${someArgs} some text`,
       nested: {
         property: {
           boolean: true,
