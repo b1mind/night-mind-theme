@@ -1,7 +1,7 @@
 {
   "name": "Night Mind Test",
   "type": "dark",
-  "include": "./night_defaults.json",
+  "include": "./defaults_purple.json",
   "semanticHighlighting": false,
   "semanticTokenColors": {
     "variable.parameter": { "foreground": "#e0b96b", "fontStyle": "italic" },

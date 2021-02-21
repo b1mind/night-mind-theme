@@ -1,8 +1,19 @@
 Todo: 
-  ☐ take new screenshots
+  ☐ take new screenshots (more detail on UI)
+  ✔ purple background theme started? @done(21-02-20 23:00)
+  ☐ finish purple borders and replacing rest of the unwanted gray
   ☐ another gray/highlight color theme?
   ☐ update readme (add how to difine custom colors?)
+  ☐ update package.json with more stuff.
   ☐ color icons in the top right of active window
+  ✔ sync todo with notion todo @done(21-02-20 23:00)
+  ☐ color scroll bar borders different
+  ☐ color scroll bar different period....
+  ☐ input box errors? currently yellow
+  ☐ peek def window color, git view color.
+  ☐ find out about hierarchy and how/if it matters
+  ☐ style dubug?
+  ☐ filter in explorer/side bar needs colored
 
 Archive:
   ✔ restyle expoler text/highlight @done(21-02-03 17:39) @project(Todo)

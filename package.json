@@ -1,10 +1,10 @@
 {
   "name": "night-mind",
   "displayName": "Night Mind",
-  "description": "Dark Theme with strong focus highlight",
+  "description": "Dark Theme with strong focus highlights",
   "publisher": "b1m1nd",
   "author": {
-    "name": "Brent Morton"
+    "name": "Brent S. Morton"
   },
   "version": "0.1.0",
   "repository": {
@@ -32,14 +32,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night Mind [alt-gray]",
+        "label": "Night Mind [purple]",
         "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-gray-alt.json"
+        "path": "./themes/night-mind-deep-purple.json"
       },
       {
         "label": "Night Mind [gray]",
         "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-dark-gray.json"
+        "path": "./themes/night-mind-gray.json"
       }
     ]
   },

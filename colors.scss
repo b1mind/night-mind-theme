@@ -1,10 +1,10 @@
 :root {
   // main colors
-  --clr-highlight: #ff50ff;
-  --purple-dark: #7b56ff;
-  --clr-highlight-secondary: #df94ff;
-  --clr-secondary-alt: #b994ff;
+  --pink-highlight: #ff50ff;
+  --purple-highlight: #7b56ff;
   --highlight-dark: #960096;
+  --events-pink: #df94ff;
+  --events-pink-alt: #b994ff;
   --purple-main: #9494ff;
   --purple: #8694e8;
   --purple-light: #a0b2f3;
@@ -30,13 +30,15 @@
   --blue-100: #cfe3ff;
   --purple-100: #d2d1ff;
 
+  // brackets real light (pastel)
   --um: #f8f8c3;
   --um: #dac3f8;
-  --um: hsl(241, 79%, 87%);
+  --um: #c5c4f8;
   --um2: #b5b3f7;
   --um: #c3e0f8;
   --um2: #a8d2f4;
   --um: #d0edcf;
+
   --blue: #64dfdf;
   --teal-blue: #719fb0;
   --green: #80ffdb;
@@ -62,7 +64,7 @@
 
   /* darks */
   --background: #1b1b1b;
-  --background: #161616;
+  --background-dark: #161616;
   --two: #242424;
   --border: #2e2e2e;
 
@@ -73,7 +75,26 @@
   --hum: #9d9d9d;
   --lightgrey: #cecece;
 
-  // text colors
+  /*purple darks */
+  --background: #1e1b28;
+  --background-dark: #18141f;
+  --two: #2e293d;
+  --two: #2f2b3a;
+  --two: #39334d;
+  --border: #2e2e2e;
+
+  // purple lights
+  --um: #c5c4f8;
+  --um2: #b5b3f7;
+  --ignore: #3e3e3e;
+  --one: #3d3d3d;
+  --yea: #525252;
+  --hum: #9d9d9d;
+  --lightgrey: #cecece;
+
+  // blue darks
+  --background: #1c1a27;
+  --background-dark: #18141f;
 }
 
 //notes:
