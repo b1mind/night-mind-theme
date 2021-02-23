@@ -188,7 +188,7 @@
       "name": "Library class/type",
       "scope": ["support.constant.json", "support.type", "support.class"],
       "settings": {
-        "foreground": "#a0b2f3",
+        "foreground": "#d2d1ff",
         "fontStyle": "normal"
       }
     },
@@ -228,7 +228,7 @@
       "name": "Support Constant Math",
       "scope": ["support.constant.math"],
       "settings": {
-        "foreground": "#a0b2f3",
+        "foreground": "#d2d1ff",
         "fontStyle": "normal"
       }
     },
@@ -791,7 +791,7 @@
         "punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#e7ca8d",
+        "foreground": "#e0b96b",
         "fontStyle": "normal"
       }
     },
@@ -842,7 +842,7 @@
         "support.type.property-name.css.sass"
       ],
       "settings": {
-        "foreground": "#9494ff"
+        "foreground": "#e7ca8d"
       }
     },
     {
@@ -1073,6 +1073,7 @@
     {
       "name": "JavaScript module imports and exports",
       "scope": [
+        "support.type.object.module.js",
         "variable.other.meta.import.js",
         "meta.import.js variable.other",
         "variable.other.meta.export.js",

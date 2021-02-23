@@ -1,7 +1,8 @@
 {
-  "name": "Night Purple defaults",
+  "name": "Night Purple Ui Defaults",
   "include": "./defaults_ui.json",
   "colors": {
+    "selection.background": "#2f2b3a",
     "button.background": "#3d3d3d",
     "extensionButton.prominentBackground": "#3d3d3d",
 
@@ -16,23 +17,14 @@
     "editorGroup.border": "#18141f",
     "editorOverviewRuler.selectionHighlightForeground": "#3D3D3D",
     "editorWidget.border": "#3D3D3D",
+
     "editor.selectionBackground": "#2f2b3a",
     "editor.selectionHighlightBackground": "#2f2b3a",
     "editor.hoverHighlightBackground": "#2f2b3a",
-
-    "list.inactiveSelectionBackground": "#1e1c26",
-    "list.inactiveSelectionForeground": "#cecece",
-    "list.hoverBackground": "#2f2b3a",
-    "list.hoverForeground": "#cecece",
-    "list.focusBackground": "#2f2b3a",
-    "list.focusForeground": "#cecece",
-    "list.activeSelectionBackground": "#2e293d",
-    "list.dropBackground": "#3D3D3D",
-
-    "activityBar.dropBackground": "#3D3D3D",
-
-    "peekViewEditor.matchHighlightBackground": "#3D3D3D",
-    "peekViewResult.matchHighlightBackground": "#3D3D3D",
+    "editor.findMatchBackground": "#50476b",
+    "editor.findMatchHighlightBackground": "#50476b",
+    "editor.findRangeHighlightBackground": "#50476b",
+    "editor.rangeHighlightBackground": "#242424",
 
     "editorOverviewRuler.bracketMatchForeground": "#3D3D3D",
     "editor.background": "#1d1a27",
@@ -42,14 +34,28 @@
     "editorGroupHeader.noTabsBackground": "#1d1a27",
     "editorGroupHeader.tabsBackground": "#1d1a27",
 
+    "list.inactiveSelectionBackground": "#242131",
+    "list.inactiveSelectionForeground": "#cecece",
+    "list.hoverBackground": "#39334d",
+    "list.hoverForeground": "#cecece",
+    "list.focusBackground": "#39334d",
+    "list.focusForeground": "#cecece",
+    "list.activeSelectionBackground": "#2e293d",
+    "list.dropBackground": "#3D3D3D",
+
+    "peekViewEditor.matchHighlightBackground": "#3D3D3D",
+    "peekViewResult.matchHighlightBackground": "#3D3D3D",
+
     "badge.background": "#1d1a27",
 
     "sideBarSectionHeader.background": "#1d1a27",
+
+    "activityBar.dropBackground": "#3D3D3D",
     "activityBar.background": "#1d1a27",
 
-    "tab.activeBackground": "#39334d",
+    "tab.activeBackground": "#2f2b3a",
     "tab.inactiveBackground": "#1d1a27",
-    "tab.unfocusedActiveBackground": "#2f2b3a",
+    "tab.unfocusedActiveBackground": "#242131",
 
     "debugExceptionWidget.background": "#1d1a27",
 
@@ -71,7 +77,7 @@
 
     "input.background": "#18141f",
 
-    "scrollbar.shadow": "#1d1a2790",
+    "scrollbar.shadow": "#00000030",
     "scrollbarSlider.hoverBackground": "#39334d90",
     "scrollbarSlider.activeBackground": "#2f2b3a90",
     "scrollbarSlider.background": "#39334d60",
@@ -89,13 +95,14 @@
 
     "terminal.background": "#18141f",
     "terminalCursor.background": "#18141f",
+    "terminal.selectionBackground": "#2f2b3a",
 
-    "editorWidget.background": "#1e1c26",
-    "editorSuggestWidget.selectedBackground": "#2f2b3a",
+    "editorWidget.background": "#242131",
+    "editorSuggestWidget.selectedBackground": "#39334d",
 
     "menubar.selectionBackground": "#39334d",
     "menu.selectionBackground": "#39334d",
-    "menu.background": "#1e1c26",
+    "menu.background": "#242131",
 
     "peekViewResult.selectionBackground": "#39334d",
     "peekViewTitle.background": "#18141f",

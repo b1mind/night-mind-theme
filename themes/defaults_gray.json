@@ -2,6 +2,7 @@
   "name": "Night Gray Defaults",
   "include": "./defaults_ui.json",
   "colors": {
+    "selection.background": "#2e2e2e",
     "editorCursor.background": "#161616",
     "editor.selectionForeground": "#161616",
     "editor.inactiveSelectionBackground": "#161616",
@@ -52,7 +53,7 @@
     "dropdown.background": "#161616",
     "input.background": "#161616",
 
-    "scrollbar.shadow": "#16161690",
+    "scrollbar.shadow": "#00000030",
     "scrollbarSlider.activeBackground": "#2e2e2e50",
     "scrollbarSlider.background": "#2e2e2e80",
     "scrollbarSlider.hoverBackground": "#52525280",
@@ -65,6 +66,7 @@
     "statusBar.border": "#161616",
     "terminal.background": "#161616",
     "terminalCursor.background": "#161616",
+    "terminal.selectionBackground": "#3e3e3e",
     "editorWidget.background": "#242424",
     "menubar.selectionBackground": "#2E2E2E",
     "menu.background": "#242424",
@@ -75,6 +77,10 @@
     "editor.selectionBackground": "#2e2e2e",
     "editor.selectionHighlightBackground": "#2e2e2e",
     "editor.hoverHighlightBackground": "#2e2e2e",
-    "editorSuggestWidget.selectedBackground": "#2E2E2E"
+    "editorSuggestWidget.selectedBackground": "#2E2E2E",
+    "editor.findMatchBackground": "#525252",
+    "editor.findMatchHighlightBackground": "#525252",
+    "editor.findRangeHighlightBackground": "#525252",
+    "editor.rangeHighlightBackground": "#242424"
   }
 }
