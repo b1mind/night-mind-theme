@@ -106,3 +106,9 @@ function switchStatement() {
       break;
   }
 }
+
+module.exports = {
+  myObj,
+  lastName,
+  brent,
+};

@@ -1,9 +1,11 @@
 :root {
-  // main colors
+  // highlight colors
   --pink-highlight: #ff50ff;
   --purple-highlight: #7b56ff;
   --highlight-dark: #960096;
   --events-pink: #df94ff;
+
+  // function/declaration colors
   --events-pink-alt: #b994ff;
   --purple-main: #9494ff;
   --purple: #8694e8;
@@ -14,21 +16,6 @@
   --blue-alt: #81a9e4;
   --lightblue: #9cd9ff;
   --blue: #00b1ff;
-  // others
-
-  --old-functions: #00dcdc;
-
-  //new colors?
-  --gold: #fcce9e;
-  --gold-dark: #ffbe79;
-  --purple: #a561ff;
-  --purple-alt: #845ec2;
-  --pink: #b34180;
-  --pink: #fd72ad;
-  --pink-500: #e36bae;
-  --pink-100: #f8a1d1;
-  --blue-100: #cfe3ff;
-  --purple-100: #d2d1ff;
 
   // brackets real light (pastel)
   --um: #f8f8c3;
@@ -43,6 +30,7 @@
   --teal-blue: #719fb0;
   --green: #80ffdb;
 
+  // variable / string colors
   --um: #e0b96b;
   --um: #e7ca8d;
   --um: #e0a93d;
@@ -62,13 +50,13 @@
   --conflict2: #ff5722;
   --svelteOG: #ff7e57;
 
-  /* darks */
+  /* gray darks */
   --background: #1b1b1b;
   --background-dark: #161616;
   --two: #242424;
   --border: #2e2e2e;
 
-  // lights
+  // gray lights
   --ignore: #3e3e3e;
   --one: #3d3d3d;
   --yea: #525252;
@@ -76,12 +64,15 @@
   --lightgrey: #cecece;
 
   /*purple darks */
-  --main-background: #1d1a27;
+  --main-background: #1e1b28;
   --background-temp: #1e1b27;
   --background-dark: #18141f;
   --selection: #2f2b3a;
   --selection-dark: #2e293d;
+  --selection-bright: #39334d;
   --selection-purple: #39334d;
+  --find-highlight: #50476b;
+  --menu-bg: #242131;
   --border-test: #1f1e24;
   --border: #2e2e2e;
 
@@ -97,6 +88,34 @@
   // blue darks
   --background: #1c1a27;
   --background-dark: #18141f;
+
+  // others
+  --old-functions: #00dcdc;
+
+  // colors that need replaced still
+  --wtf: #ffc828;
+  --wtf: #665010;
+  --wtf: #64b4fa;
+  --wtf: #392020;
+  --wtf: #284864;
+  --wtf: #140000;
+  --wtf: #051405;
+
+  //git stuffs
+  --wtf: #a1d884;
+  --wtf: #d88282;
+
+  //test colors
+  --gold: #fcce9e;
+  --gold-dark: #ffbe79;
+  --purple: #a561ff;
+  --purple-alt: #845ec2;
+  --pink: #b34180;
+  --pink: #fd72ad;
+  --pink-500: #e36bae;
+  --pink-100: #f8a1d1;
+  --blue-100: #cfe3ff;
+  --purple-100: #d2d1ff;
 }
 
 //notes:

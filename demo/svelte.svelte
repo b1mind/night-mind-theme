@@ -19,8 +19,8 @@
     }
   }
 
-  $: test
-  $store
+  $: test;
+  $store;
 
   Math.abs(400, 500);
 
