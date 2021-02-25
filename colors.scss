@@ -93,13 +93,14 @@
   --old-functions: #00dcdc;
 
   // colors that need replaced still
-  --wtf: #ffc828;
-  --wtf: #665010;
-  --wtf: #64b4fa;
+  --error: #f05050;
+  --warning: #ffc828;
+  --info: #64b4fa;
   --wtf: #392020;
+  --wtf: #665010;
   --wtf: #284864;
-  --wtf: #140000;
-  --wtf: #051405;
+  --diffEditor-removedTextBg: #140000;
+  --diffEditor-insertedTextBg: #051405;
 
   //git stuffs
   --wtf: #a1d884;

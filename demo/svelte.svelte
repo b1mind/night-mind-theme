@@ -40,6 +40,7 @@
       return prop + (nested.prop / age) * index;
     },
   };
+
   console.log(myObj);
   anotherMyObj = new myObj();
 </script>
