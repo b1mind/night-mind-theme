@@ -1,12 +1,22 @@
 Todo: 
-  ☐ color JSON.Math.Date different... also max-width CSS
+  ☐ warning/error/info colors need changed?
+  ☐ textStyle markdown constant.character.escape and check others
+
+  ☐ uiStyle git history shit
+  ☐ uiStyle oddities like buttons/errors/ect
+  ☐ uiStyle bottom panel background
+
+  ☐ [purple] window panes highlight colors ( 2 right now?)
+  ☐ [purple] background color for drop down selection inputs
+  ☐ [purple] notifications background and colors/highlights
+
+  ☐ peek def window color, git view color.
+  ☐ filter in explorer/side bar needs colored
+  ☐ style dubug?
+
   ☐ update package.json with more stuff. (bages, ect)
   ☐ take new screenshots (more detail on UI)
   ☐ update readme (add how to difine custom colors?)
-  ☐ bottom panel background
-  ☐ input box errors? currently yellow
-  ☐ peek def window color, git view color.
-  ☐ style dubug?
 
 Research:
   ☐ color icons in the top right of active window
@@ -15,9 +25,12 @@ Research:
 
 Wishlist:
   ☐ another gray/highlight color theme?
-  ☐ filter in explorer/side bar needs colored
 
 Archive:
+  ✔ textStyle model.exports.js orange @done(21-02-21 22:11) @project(Todo)
+  ✔ textStyle JSON.Math.Date different... also max-width CSS @done(21-02-21 22:11) @project(Todo)
+  ✔ [purple] play with highlight colors @done(21-02-21 22:12) @project(Todo)
+  ✔ [purple] popup/palette/menu background needs lightened @done(21-02-21 22:12) @project(Todo)
   ✔ color scroll bar borders different @done(21-02-21 04:10) @project(Todo)
   ✔ color scroll bar different period.... @done(21-02-21 04:10) @project(Todo)
   ✔ finish purple borders and replacing rest of the unwanted gray @done(22-02-21 04:11) @project(Todo)

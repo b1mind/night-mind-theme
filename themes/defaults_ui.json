@@ -60,7 +60,7 @@
     "button.hoverBackground": "#ff05ff90",
 
     "extensionButton.prominentForeground": "#FFFFFF",
-    "extensionButton.prominentHoverBackground": "#960096",
+    "extensionButton.prominentHoverBackground": "#ff05ff90",
 
     "dropdown.border": "#242424",
     "dropdown.foreground": "#CECECE",
@@ -163,7 +163,7 @@
     "statusBar.debuggingBackground": "#FFC828",
     "statusBar.debuggingBorder": "#FFC828",
     "statusBar.noFolderForeground": null,
-    "statusBar.noFolderBorder": "#960096",
+    "statusBar.noFolderBorder": null,
     "statusBarItem.activeBackground": "#242424",
     "statusBarItem.hoverBackground": "#2E2E2E",
     "statusBarItem.prominentBackground": "#525252",

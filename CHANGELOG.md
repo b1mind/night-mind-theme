@@ -2,6 +2,13 @@
 
 **Still in active development**
 
+## v0.1.1
+
+- New\*\* Theme background choice [ purple ]
+- Textmate changes for js and css ( minor color hue adjustments )
+- better pug/scss colors
+- svelte additional scope colors and $ labels colored
+
 ## v0.1.0
 
 - bug fix, root of variable props in js/ts not coloring

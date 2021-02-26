@@ -6,8 +6,11 @@ This theme is my take on my favorite dark themes, with a focus on where focus is
 
 ⚠ This theme is in active development ⚠
 
-Atl Color Layout [alt-gray]
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-alt-main.png)
+\*New Color Layout [ purple ]
+![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-purple-main.png)
+
+Color Layout [ gray ]
+![Image Text?](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-alt-main.png)
 
 ![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-main.png)
 
@@ -30,23 +33,20 @@ Used with BracketPair Colorizor2 extension (theme styles indent lines)
 ```json
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
-  "bracket-pair-colorizer-2.colorMode": "Independent",
-  "bracket-pair-colorizer-2.colors": [
-    "#7b56ff",
-    "#00b1ff",
-    "#9cd9ff"
-  ],
-  "bracket-pair-colorizer-2.unmatchedScopeColor": "#f05050"
+  "bracket-pair-colorizer-2.colors": ["#c4c3f8", "#f8f8c3", "#a8d2f4"],
+  "bracket-pair-colorizer-2.unmatchedScopeColor": "#f05050",
+  "bracket-pair-colorizer-2.colorMode": "Consecutive"
 ```
 
 ## Notes
 
-Old Color Layout will be available still as [old-gray]
+Removed Old Color Layout [old-gray]
 Going to revisit some of the git colors for explorer and problem highlights
+Still working on getting more languages polished and uniform.
 Other backgrounds / focus colors
 
 ### Opinionated Theme
 
 Feedback is welcome but this theme was made for use by my self. Many choices are based on the use of VIM/NeoVim extensions, and other colored extensions. This will be included in a Extension pack, with keybindings/snippets and custom colors/styles to fit the themes in the future.
 
-_Keep in mind you can always set your defaults in settings_
+_Keep in mind you can always change your color defaults in settings.json_
