@@ -9,12 +9,12 @@ $testColor: #ffffff;
 }
 
 .some-class {
-  p {
-    margin: 0;
-  }
-
   &-sub {
     padding: 0;
+  }
+
+  &--bem {
+    margin: 0 auto;
   }
 
   &__another {
