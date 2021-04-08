@@ -2,6 +2,19 @@
 
 **Still in active development**
 
+## v0.1.2
+
+### [ text all* ]
+
+- module.export
+- css/scss meta values like grid-area
+- null in js
+- this in svelte bind:
+
+### [ purple ]
+
+- breadcrumb editor.Overview find match
+
 ## v0.1.1
 
 - New\*\* Theme background choice [ purple ]

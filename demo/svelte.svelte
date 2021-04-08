@@ -46,6 +46,7 @@
 </script>
 
 <main>
+  <details-menu bind:this={detailsMenu}> some custom tag </details-menu>
   <div class="class" data-theme="light">
     <div id="id" />
     {#if age === 100 || myObj.prop >= 0}
@@ -77,15 +78,21 @@
     box-sizing: border-box;
   }
 
+  details-menu {
+  }
+
   main {
     width: 100%;
     color: red;
+    display: grid;
+    grid-template-areas: "test";
     font-size: var(--size);
     font-weight: bold;
 
     .another-class {
       min-height: 50%;
       color: #ffffff;
+      grid-area: test;
     }
 
     &::after {

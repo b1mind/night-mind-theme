@@ -24,8 +24,9 @@
     "editor.findMatchBackground": "#50476b",
     "editor.findMatchHighlightBackground": "#50476b",
     "editor.findRangeHighlightBackground": "#50476b",
-    "editor.rangeHighlightBackground": "#242424",
+    "editor.rangeHighlightBackground": "#2f2b3a",
 
+    "editorOverviewRuler.findMatchForeground": "#2f2b3a",
     "editorOverviewRuler.bracketMatchForeground": "#3D3D3D",
     "editor.background": "#1d1a27",
     "editorWhitespace.foreground": "#1d1a27",
@@ -36,9 +37,9 @@
 
     "list.inactiveSelectionBackground": "#242131",
     "list.inactiveSelectionForeground": "#cecece",
-    "list.hoverBackground": "#39334d",
+    "list.hoverBackground": "#39334d80",
     "list.hoverForeground": "#cecece",
-    "list.focusBackground": "#39334d",
+    "list.focusBackground": "#39334d80",
     "list.focusForeground": "#cecece",
     "list.activeSelectionBackground": "#2e293d",
     "list.dropBackground": "#3D3D3D",

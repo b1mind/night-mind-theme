@@ -92,6 +92,7 @@ const brent = function () {};
 
 let lastName = "Morton";
 const age = 200;
+let aNull = null;
 
 console.log(age, brent, lastName);
 

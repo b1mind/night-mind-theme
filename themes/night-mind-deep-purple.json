@@ -32,7 +32,7 @@
         "keyword.operator.type",
         "keyword.operator",
         "keyword",
-        "punctuation.definintion.string",
+        "punctuation.definition.string",
         "punctuation",
         "storage.type",
         "source.css",
@@ -358,7 +358,7 @@
       "name": "Meta Property Name",
       "scope": "meta.property-name",
       "settings": {
-        "foreground": "#cecece"
+        "foreground": "#e7ca8d"
       }
     },
 
@@ -716,7 +716,7 @@
       "name": "Null and undefined",
       "scope": ["constant.language.null", "constant.language.undefined"],
       "settings": {
-        "foreground": "#cecece"
+        "foreground": "#ffb894"
       }
     },
     {
@@ -798,6 +798,9 @@
     {
       "name": "Tag selectors and &",
       "scope": [
+        "entity.name.tag.custom.css",
+        "entity.name.tag.custom.scss",
+        "entity.name.tag.custom.sass",
         "entity.name.tag.css",
         "entity.name.tag.less",
         "entity.name.tag.custom.css",
@@ -820,6 +823,14 @@
       ],
       "settings": {
         "foreground": "#b994ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Property Values",
+      "scope": ["meta.property-value"],
+      "settings": {
+        "foreground": "#e7ca8d",
         "fontStyle": "italic"
       }
     },
@@ -909,9 +920,6 @@
       "scope": [
         "punctuation.definition.keyword",
         "entity.name.tag.reference",
-        "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss",
-        "entity.name.tag.custom.sass",
         "support.function.sass",
         "keyword.control.interpolation.sass",
         "keyword.operator.css",
@@ -1011,14 +1019,14 @@
     },
     {
       "name": "this word in javascript",
-      "scope": ["variable.language.this.js"],
+      "scope": ["variable.language.this.js", "variable.language.svelte"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffb894"
       }
     },
     {
-      "name": "Object literla key",
+      "name": "Object literal key",
       "scope": ["meta.object.member.js meta.object-literal.key.js"],
       "settings": {
         "foreground": "#CECECE"
@@ -1348,7 +1356,9 @@
     },
     {
       "name": "Specific JSON Property values like null",
-      "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
+      "scope": [
+        "meta.structure.dictionary.json meta.structure.dictionary.value constant.language"
+      ],
       "settings": {
         "foreground": "#ffb894"
       }
