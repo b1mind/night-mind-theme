@@ -93,7 +93,7 @@
     "list.inactiveFocusBackground": null,
     "list.activeSelectionForeground": null,
     "list.invalidItemForeground": "#f05050",
-    "list.highlightForeground": "#cecece",
+    "list.highlightForeground": "#ff05ff",
     "list.errorForeground": "#F05050",
     "list.warningForeground": "#FFE39C",
     "listFilterWidget.background": "#ff05ff",
