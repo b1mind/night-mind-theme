@@ -723,7 +723,6 @@
       "name": "Boolean",
       "scope": ["constant.language.boolean"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ffb894"
       }
     },

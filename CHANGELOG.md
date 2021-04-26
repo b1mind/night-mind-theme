@@ -2,6 +2,18 @@
 
 **Still in active development**
 
+## v0.1.3
+
+- fixed/revert changes to bring back pallet focus colors.
+
+### [ textmate changes ]
+
+- removed italics for booleans
+
+### [ purple ]
+
+- corrections for notification and status bar colors
+
 ## v0.1.2
 
 ### [ text all* ]

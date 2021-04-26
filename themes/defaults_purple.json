@@ -67,10 +67,14 @@
     "statusBar.background": "#1d1a27",
     "statusBar.debuggingForeground": "#1d1a27",
     "statusBar.noFolderBackground": "#1d1a27",
+    "statusBarItem.prominentBackground": "#1d1a27",
+    "statusBarItem.prominentHoverBackground": "#1d1a27",
 
     "titleBar.activeBackground": "#1d1a27",
     "titleBar.inactiveBackground": "#1d1a27",
 
+    "notificationCenterHeader.background": "#1d1a27",
+    "notifications.border": "#18141f",
     "notifications.background": "#1d1a27",
     "walkThrough.embeddedEditorBackground": "#1c1a27",
 

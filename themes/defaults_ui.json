@@ -165,19 +165,15 @@
     "statusBar.noFolderBorder": null,
     "statusBarItem.activeBackground": "#242424",
     "statusBarItem.hoverBackground": "#2E2E2E",
-    "statusBarItem.prominentBackground": "#525252",
     "statusBarItem.prominentForeground": "#CECECE",
-    "statusBarItem.prominentHoverBackground": "#525252",
 
     "titleBar.activeForeground": "#9D9D9D",
     "titleBar.inactiveForeground": "#525252",
 
     "notificationCenter.border": "#2E2E2E",
     "notificationCenterHeader.foreground": "#9D9D9D",
-    "notificationCenterHeader.background": "#242424",
     "notificationToast.border": "#2E2E2E",
     "notifications.foreground": "#CECECE",
-    "notifications.border": "#2E2E2E",
     "notificationLink.foreground": "#ff05ff",
 
     "quickerInputTitle.background": "#ff05ff",
