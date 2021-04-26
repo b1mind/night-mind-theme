@@ -1,21 +1,16 @@
 <script>
   import { Button } from "./components/Button.svelte";
-
-  const comeOn = `this should work`;
-
   export let variable = 300;
 
   function someFun(dex) {
-    let someIndex = dex;
-    console.log(e, variable);
-
     let boolean = false;
-    let ternary = !boolean ? "a don't know" : "i know";
+    let ternary = !boolean ? "a don't know" : dex;
 
+    const newLine = "I am a new line";
     if (ternary) {
       return;
     } else {
-      console.log(comeOn);
+      console.log(newLine);
     }
   }
 
@@ -23,9 +18,7 @@
   $store;
 
   Math.abs(400, 500);
-
   variable = 420;
-
   someFun();
 
   const myObj = {

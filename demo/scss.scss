@@ -10,7 +10,7 @@ $testColor: #ffffff;
 
 .some-class {
   &-sub {
-    padding: 0;
+    background-color: $testColor;
   }
 
   &--bem {
