@@ -1413,14 +1413,14 @@
       }
     },
     {
-      "name": "CoffeScript Variable Assignment",
+      "name": "CoffeeScript Variable Assignment",
       "scope": "variable.assignment.coffee",
       "settings": {
         "foreground": "#9d9d9d"
       }
     },
     {
-      "name": "CoffeScript Parameter Function",
+      "name": "CoffeeScript Parameter Function",
       "scope": "variable.parameter.function.coffee",
       "settings": {
         "foreground": "#94bfff"
@@ -1602,7 +1602,7 @@
         "source.go keyword.import.go",
         "source.go keyword.function.go",
         "source.go keyword.type.go",
-        "source.go keyword.struct.go",
+        "source.go keyword.strict.go",
         "source.go keyword.interface.go",
         "source.go keyword.const.go",
         "source.go keyword.var.go",
