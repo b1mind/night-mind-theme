@@ -17,16 +17,17 @@
   $: test;
   $store;
 
-  Math.abs(400, 500);
+  Math.abs(400, 500, 600);
   variable = 420;
   someFun();
 
-  const myObj = {
+  const inObj = {
     age: 38,
     prop: 12,
     nested: {
       prop: 100,
     },
+
     arraySure: [a, b, c, d],
     initialAge: age,
     addProps: function (notUsed, index) {
@@ -34,19 +35,19 @@
     },
   };
 
-  console.log(myObj);
-  anotherMyObj = new myObj();
+  console.log(inObj);
+  anotherMyObj = new inObj();
 </script>
 
 <main>
   <details-menu bind:this={detailsMenu}> some custom tag </details-menu>
   <div class="class" data-theme="light">
     <div id="id" />
-    {#if age === 100 || myObj.prop >= 0}
+    {#if age === 100 || inObj.prop >= 0}
       <Button>Sign Up</Button>
     {:else}
       <Button
-        {prop}
+        prop={inObj.prop}
         prop2={words.test}
         in:fly={{}}
         use:someFun={{}}
@@ -62,16 +63,14 @@
   </div>
 </main>
 
-<style type="text/scss">
-  //style like its 1999
-  --var: #ff50ff;
-  --size: 1rem;
+<style>
+  :root {
+    --var: #ff50ff;
+    --size: 1rem;
+  }
 
   * {
     box-sizing: border-box;
-  }
-
-  details-menu {
   }
 
   main {
@@ -81,16 +80,16 @@
     grid-template-areas: "test";
     font-size: var(--size);
     font-weight: bold;
+  }
 
-    .another-class {
-      min-height: 50%;
-      color: #ffffff;
-      grid-area: test;
-    }
+  main::after {
+    content: "";
+    cursor: pointer;
+  }
 
-    &::after {
-      content: "";
-      cursor: pointer;
-    }
+  .another-class {
+    min-height: 50%;
+    color: #ffffff;
+    grid-area: test;
   }
 </style>
