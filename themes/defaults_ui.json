@@ -77,7 +77,7 @@
     "inputValidation.infoBackground": "#284864",
     "inputValidation.infoBorder": "#64B4FA",
     "inputValidation.warningBackground": "#665010",
-    "inputValidation.warningBorder": "#FFC828",
+    "inputValidation.warningBorder": "#f9826c",
 
     "badge.foreground": "#cecece",
 
@@ -123,9 +123,9 @@
     "menu.selectionBorder": null,
     "menu.separatorBackground": "#2E2E2E",
 
-    "diffEditor.insertedTextBackground": "#6EB45024",
+    "diffEditor.insertedTextBackground": "#a1d88420",
     "diffEditor.insertedTextBorder": null,
-    "diffEditor.removedTextBackground": "#D8828224",
+    "diffEditor.removedTextBackground": "#f9826c20",
     "diffEditor.removedTextBorder": null,
 
     "debugExceptionWidget.border": "#2E2E2E",
