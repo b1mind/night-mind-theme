@@ -21,7 +21,7 @@
   variable = 420;
   someFun();
 
-  const inObj = {
+  const someObj = {
     age: 38,
     prop: 12,
     nested: {
@@ -35,19 +35,19 @@
     },
   };
 
-  console.log(inObj);
-  anotherMyObj = new inObj();
+  console.log(someObj);
+  anotherMyObj = new someObj();
 </script>
 
 <main>
   <details-menu bind:this={detailsMenu}> some custom tag </details-menu>
   <div class="class" data-theme="light">
     <div id="id" />
-    {#if age === 100 || inObj.prop >= 0}
+    {#if age === 100 || someObj.prop >= 0}
       <Button>Sign Up</Button>
     {:else}
       <Button
-        prop={inObj.prop}
+        prop={someObj.prop}
         prop2={words.test}
         in:fly={{}}
         use:someFun={{}}

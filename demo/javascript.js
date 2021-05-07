@@ -24,8 +24,6 @@ export default async function unreachableCode(res) {
   }
 }
 
-const button = document.querySelector("button");
-
 let something = JSON.parse(res);
 const date = Date.getDate();
 
