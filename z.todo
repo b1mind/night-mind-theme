@@ -1,18 +1,16 @@
 Todo: 
-  ☐ warning/error/info colors need changed?
+  ☐ merge conflict colors need checked
   ☐ textStyle markdown constant.character.escape and check others
 
-  ☐ uiStyle git history shit
   ☐ uiStyle oddities like buttons/errors/ect
-  ☐ uiStyle bottom panel background
+  ☐ uiStyle style debug?
+  ☐ color for window highlight? like extensions
+    ☐ extension content is .md preview check its colors
+  ☐ window guide buttons...
 
   ☐ [purple] window panes highlight colors ( 2 right now?)
-  ☐ [purple] background color for drop down selection inputs
-  ✔ [purple] notifications background and colors/highlights @done(21-04-26 11:51)
 
   ☐ peek def window color, git view color.
-  ☐ filter in explorer/side bar needs colored
-  ☐ style debug?
 
   ☐ update package.json with more stuff. (badges, ect)
   ☐ take new screenshots (more detail on UI)
@@ -27,6 +25,15 @@ Wishlist:
   ☐  blue/highlight color theme?
 
 Archive:
+  ✔ warning/error/info colors need changed? @done(21-05-07 13:19) @project(Todo)
+  ✔ uiStyle bottom panel background @done(21-05-07 13:20) @project(Todo)
+  ✔ uiStyle minmap colors @done(21-05-07 13:20) @project(Todo)
+  ✔ vsc window*extension yellow border tab highlight @done(21-05-07 13:20) @project(Todo)
+  ✔ uiStyle git history shit @done(21-05-06 18:16) @project(Todo)
+  ✔ input box errors? currently yellow @done(21-05-07 11:09) @project(Todo)
+  ✔ [purple] background color for drop down selection inputs @done(21-05-07 12:11) @project(Todo)
+  ✔ [purple] notifications background and colors/highlights @done(21-04-26 11:51) @project(Todo)
+  ✔ filter in explorer/side bar needs colored @done(21-05-07 12:11) @project(Todo)
   ✔ textStyle model.exports.js orange @done(21-02-21 22:11) @project(Todo)
   ✔ textStyle JSON.Math.Date different... also max-width CSS @done(21-02-21 22:11) @project(Todo)
   ✔ [purple] play with highlight colors @done(21-02-21 22:12) @project(Todo)
