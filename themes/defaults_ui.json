@@ -48,7 +48,7 @@
     "editorHoverWidget.border": "#2E2E2E",
     "widget.shadow": "#00000030",
 
-    "editorMarkerNavigation.background": "#242424",
+    "editorMarkerNavigation.background": "#ff50ff",
     "editorMarkerNavigationInfo.background": "#64B4FA",
     "editorMarkerNavigationError.background": "#F05050",
     "editorMarkerNavigationWarning.background": "#FFC828",
@@ -56,7 +56,7 @@
     "editorGroup.dropBackground": "#ff05ff70",
     "editorGroupHeader.tabsBorder": "#2E2E2E",
     "editorLightBulb.foreground": "#e7ca8d80",
-    "editorLightBulbAutoFix.foreground": "#00b1ff80",
+    "editorLightBulbAutoFix.foreground": "#719fb0",
 
     "button.foreground": "#cecece",
     "button.hoverBackground": "#ff05ff90",
@@ -64,11 +64,8 @@
     "extensionButton.prominentForeground": "#FFFFFF",
     "extensionButton.prominentHoverBackground": "#ff05ff90",
 
-    "dropdown.border": "#242424",
     "dropdown.foreground": "#CECECE",
-    "dropdown.listBackground": "#242424",
 
-    "input.border": "#3e3e3e",
     "input.foreground": "#CECECE",
     "input.placeholderForeground": "#525252",
     "inputOption.activeBorder": "#960096",
@@ -153,8 +150,8 @@
     "editorOverviewRuler.wordHighlightForeground": "#7C7C7C",
     "editorOverviewRuler.wordHighlightStrongForeground": "#7C7C7C",
     "editorOverviewRuler.errorForeground": "#F05050",
-    "editorOverviewRuler.warningForeground": "#FFC828",
-    "editorOverviewRuler.infoForeground": "#64B4FA",
+    "editorOverviewRuler.warningForeground": "#f9826c",
+    "editorOverviewRuler.infoForeground": "#64B4FA70",
 
     "panelInput.activeBorder": "#960096",
     "panelTitle.activeBorder": "#9d9d9d",
@@ -186,9 +183,6 @@
 
     "debugToolBar.background": "#242424",
     "debugToolBar.border": null,
-
-    "welcomePage.buttonBackground": "#242424",
-    "welcomePage.buttonHoverBackground": "#2E2E2E",
 
     "gitDecoration.addedResourceForeground": "#6EB450",
     "gitDecoration.modifiedResourceForeground": "#8694e8",

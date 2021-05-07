@@ -46,6 +46,8 @@
     "panel.background": "#1B1B1B",
     "statusBarItem.prominentBackground": "#525252",
     "statusBarItem.prominentHoverBackground": "#525252",
+    "dropdown.border": "#242424",
+    "dropdown.listBackground": "#242424",
     "statusBar.background": "#1B1B1B",
     "statusBar.debuggingForeground": "#1B1B1B",
     "statusBar.noFolderBackground": "#1B1B1B",
@@ -57,6 +59,9 @@
     "walkThrough.embeddedEditorBackground": "#1B1B1B",
     "dropdown.background": "#161616",
     "input.background": "#161616",
+    "input.border": "#3e3e3e",
+    "welcomePage.buttonBackground": "#242424",
+    "welcomePage.buttonHoverBackground": "#2E2E2E",
 
     "scrollbar.shadow": "#00000030",
     "scrollbarSlider.activeBackground": "#2e2e2e50",
@@ -76,9 +81,11 @@
     "menubar.selectionBackground": "#2E2E2E",
     "menu.background": "#242424",
     "menu.selectionBackground": "#2E2E2E",
+
     "peekViewResult.background": "#242424",
     "peekViewResult.selectionBackground": "#2E2E2E",
     "peekViewTitle.background": "#242424",
+
     "editor.selectionBackground": "#2e2e2e",
     "editor.selectionHighlightBackground": "#2e2e2e",
     "editor.hoverHighlightBackground": "#2e2e2e",

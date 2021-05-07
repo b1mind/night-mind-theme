@@ -3,8 +3,10 @@
   "include": "./defaults_ui.json",
   "colors": {
     "selection.background": "#2f2b3a",
-    "button.background": "#3d3d3d",
-    "extensionButton.prominentBackground": "#3d3d3d",
+    "button.background": "#2e293d",
+    "welcomePage.buttonBackground": "#2e293d",
+    "welcomePage.buttonHoverBackground": "#960096",
+    "extensionButton.prominentBackground": "#2e293d",
 
     "editorCursor.background": "#18141f",
     "editor.selectionForeground": "#18141f",
@@ -43,6 +45,8 @@
     "list.focusForeground": "#cecece",
     "list.activeSelectionBackground": "#2e293d",
     "list.dropBackground": "#3D3D3D",
+    "dropdown.border": "#18141f",
+    "dropdown.listBackground": "#242131",
 
     "peekViewEditor.matchHighlightBackground": "#3D3D3D",
     "peekViewResult.matchHighlightBackground": "#3D3D3D",
@@ -81,6 +85,7 @@
     "dropdown.background": "#18141f",
 
     "input.background": "#18141f",
+    "input.border": "#3e3e3e",
 
     "scrollbar.shadow": "#00000030",
     "scrollbarSlider.hoverBackground": "#39334d90",
