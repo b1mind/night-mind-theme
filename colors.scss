@@ -98,11 +98,15 @@
   --error: #f05050;
   --warning: #ffc828;
   --info: #64b4fa;
-  --wtf: #392020;
-  --wtf: #665010;
-  --wtf: #284864;
+  --errorBG: #392020;
+  --warningBG: #665010;
+  --infoBG: #284864;
   --diffEditor-removedTextBg: #140000;
   --diffEditor-insertedTextBg: #051405;
+
+  //new warning and git diff colors?
+
+  --green: #80ffdb;
 
   //git stuffs
   --wtf: #a1d884;
