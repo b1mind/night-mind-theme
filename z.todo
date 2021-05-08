@@ -6,11 +6,7 @@ Todo:
   ☐ uiStyle style debug?
   ☐ color for window highlight? like extensions
     ☐ extension content is .md preview check its colors
-  ☐ window guide buttons...
-
-  ☐ [purple] window panes highlight colors ( 2 right now?)
-
-  ☐ peek def window color, git view color.
+  ☐ window guide buttons...some still blue hover.. like highlight
 
   ☐ update package.json with more stuff. (badges, ect)
   ☐ take new screenshots (more detail on UI)
@@ -22,9 +18,11 @@ Research:
   ☐ check how other themes are setup with settings/abstractions
 
 Wishlist:
-  ☐  blue/highlight color theme?
+   ☐ blue/highlight color theme?
 
 Archive:
+  ✔ [purple] window panes highlight colors ( 2 right now?) @done(21-05-08 10:55) @project(Todo)
+  ✔ peek def window color, git view color. @done(21-05-08 10:55) @project(Todo)
   ✔ warning/error/info colors need changed? @done(21-05-07 13:19) @project(Todo)
   ✔ uiStyle bottom panel background @done(21-05-07 13:20) @project(Todo)
   ✔ uiStyle minmap colors @done(21-05-07 13:20) @project(Todo)
