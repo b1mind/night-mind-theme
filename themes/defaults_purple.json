@@ -19,6 +19,7 @@
     "editorGroup.border": "#18141f",
     "editorOverviewRuler.selectionHighlightForeground": "#3D3D3D",
     "editorWidget.border": "#3D3D3D",
+    "editorMarkerNavigation.background": "#18141f",
 
     "editor.selectionBackground": "#2f2b3a",
     "editor.selectionHighlightBackground": "#2f2b3a",

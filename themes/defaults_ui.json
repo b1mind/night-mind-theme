@@ -48,7 +48,6 @@
     "editorHoverWidget.border": "#2E2E2E",
     "widget.shadow": "#00000030",
 
-    "editorMarkerNavigation.background": "#ff50ff",
     "editorMarkerNavigationInfo.background": "#64B4FA",
     "editorMarkerNavigationError.background": "#F05050",
     "editorMarkerNavigationWarning.background": "#FFC828",
@@ -56,7 +55,7 @@
     "editorGroup.dropBackground": "#ff05ff70",
     "editorGroupHeader.tabsBorder": "#2E2E2E",
     "editorLightBulb.foreground": "#e7ca8d80",
-    "editorLightBulbAutoFix.foreground": "#719fb0",
+    "editorLightBulbAutoFix.foreground": "#80ffdb80",
 
     "button.foreground": "#cecece",
     "button.hoverBackground": "#ff05ff90",

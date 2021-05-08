@@ -93,6 +93,7 @@
     "editor.findMatchBackground": "#525252",
     "editor.findMatchHighlightBackground": "#525252",
     "editor.findRangeHighlightBackground": "#525252",
-    "editor.rangeHighlightBackground": "#242424"
+    "editor.rangeHighlightBackground": "#242424",
+    "editorMarkerNavigation.background": "#2e2e2e"
   }
 }
