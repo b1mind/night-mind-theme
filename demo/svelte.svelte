@@ -42,19 +42,11 @@
 <main>
   <details-menu bind:this={detailsMenu}> some custom tag </details-menu>
   <div class="class" data-theme="light">
-    <div id="id" />
+    <div id="id" in:fly={{}} use:someFun={{}} on:click={() => {}} />
     {#if age === 100 || someObj.prop >= 0}
       <Button>Sign Up</Button>
     {:else}
-      <Button
-        prop={someObj.prop}
-        prop2={words.test}
-        in:fly={{}}
-        use:someFun={{}}
-        on:click={() => {}}
-      >
-        Click Me
-      </Button>
+      <Button prop={someObj.prop}>Click Me</Button>
 
       {#each links as link (link.id)}
         <a href={`"https://domain.com"${link}`}>{link}</a>
