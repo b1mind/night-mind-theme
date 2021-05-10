@@ -2,9 +2,19 @@
 
 **Still in active development**
 
+## v0.1.4
+
+- Git diff colors (still might change)
+
+[ purple ]
+
+- list drop down backgrounds corrected
+- peek type windows background
+- buttons background/highlight corrected
+
 ## v0.1.3
 
-- fixed/revert changes to bring back pallet focus colors.
+- fixed/revert changes to bring back palette focus colors.
 
 ### [ textmate changes ]
 
