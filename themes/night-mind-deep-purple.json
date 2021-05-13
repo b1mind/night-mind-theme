@@ -17,22 +17,6 @@
     },
 
     {
-      "name": "Italics",
-      "scope": [
-        "markup.changed",
-        "meta.diff.header.git",
-        "meta.diff.header.from-file",
-        "meta.diff.header.to-file",
-        "markup.deleted.diff",
-        "markup.inserted.diff",
-        "storage.type",
-        "punctuation.definition.block.tag",
-        "meta.method.declaration",
-        "meta.method.declaration storage.type.js"
-      ]
-    },
-
-    {
       "name": "normalize font style of certain components",
       "scope": [
         "meta.property-list.css meta.property-value.css variable.other.less",
@@ -68,8 +52,7 @@
         "meta.diff.header.to-file"
       ],
       "settings": {
-        "foreground": "#94bfff",
-        "fontStyle": "italic"
+        "foreground": "#94bfff"
       }
     },
 
@@ -77,8 +60,7 @@
       "name": "Deleted",
       "scope": "markup.deleted.diff",
       "settings": {
-        "foreground": "#F05050",
-        "fontStyle": "italic"
+        "foreground": "#F05050"
       }
     },
 
@@ -86,8 +68,7 @@
       "name": "Inserted",
       "scope": "markup.inserted.diff",
       "settings": {
-        "foreground": "#A1D884",
-        "fontStyle": "italic"
+        "foreground": "#A1D884"
       }
     },
 
@@ -119,8 +100,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#e7ca8d",
-        "fontStyle": "italic"
+        "foreground": "#e7ca8d"
       }
     },
 
@@ -258,8 +238,7 @@
         "meta.method.declaration storage.type.js"
       ],
       "settings": {
-        "foreground": "#94bfff",
-        "fontStyle": "italic"
+        "foreground": "#94bfff"
       }
     },
 
@@ -281,8 +260,7 @@
         "storage.type.property.tsx"
       ],
       "settings": {
-        "foreground": "#94bfff",
-        "fontStyle": "italic"
+        "foreground": "#94bfff"
       }
     },
 
@@ -298,8 +276,7 @@
       "name": "Meta Delimiter Period",
       "scope": "meta.delimiter.period",
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
 
@@ -307,8 +284,7 @@
       "name": "Meta Selector",
       "scope": "meta.selector",
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
 
@@ -316,8 +292,7 @@
       "name": "Doctypes",
       "scope": ["entity.name.tag.doctype", "meta.tag.sgml.doctype"],
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
 
@@ -341,8 +316,7 @@
       "name": "loops",
       "scope": ["keyword.control.loop"],
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
 
@@ -365,9 +339,7 @@
     {
       "name": "function call",
       "scope": "meta.function-call",
-      "settings": {
-        "fontStyle": "italic"
-      }
+      "settings": {}
     },
 
     {
@@ -414,7 +386,6 @@
         "keyword.other.debugger"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ffb894"
       }
     },
@@ -837,16 +808,14 @@
         "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
     {
       "name": "Property Values",
       "scope": ["meta.property-value"],
       "settings": {
-        "foreground": "#e7ca8d",
-        "fontStyle": "italic"
+        "foreground": "#e7ca8d"
       }
     },
     {
@@ -915,8 +884,7 @@
       "name": "Keyword !important",
       "scope": ["keyword.other.important.css", "keyword.other.important.scss"],
       "settings": {
-        "foreground": "#ff7878",
-        "fontStyle": "italic"
+        "foreground": "#ff7878"
       }
     },
     {
@@ -926,8 +894,7 @@
         "source.css.scss meta.at-rule.keyframes.scss entity.other.attribute-name.scss"
       ],
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
     {
@@ -944,8 +911,7 @@
         "keyword.control.at-rule.css.sass"
       ],
       "settings": {
-        "foreground": "#94bfff",
-        "fontStyle": "italic"
+        "foreground": "#94bfff"
       }
     },
     {
@@ -1036,7 +1002,6 @@
       "name": "this word in javascript",
       "scope": ["variable.language.this.js", "variable.language.svelte"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ffb894"
       }
     },
@@ -1126,8 +1091,7 @@
       "name": "JavaScript parameters",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#e7ca8d",
-        "fontStyle": "italic"
+        "foreground": "#e7ca8d"
       }
     },
     {
@@ -1246,8 +1210,7 @@
       "name": "JavaScript Function expression",
       "scope": ["meta.export.default", "meta.functions.expression.js"],
       "settings": {
-        "foreground": "#e0b96b",
-        "fontStyle": "italic"
+        "foreground": "#e0b96b"
       }
     },
     {
@@ -1268,9 +1231,7 @@
     {
       "name": "params in scope",
       "scope": ["meta.objectliteral.js"],
-      "settings": {
-        "fontStyle": "italic"
-      }
+      "settings": {}
     },
     {
       "name": "JavaScript[React] Variable Other Object",
@@ -1299,8 +1260,7 @@
         "keyword.control.flow.tsx"
       ],
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
     {
@@ -1315,8 +1275,7 @@
         "keyword.control.from.tsx"
       ],
       "settings": {
-        "foreground": "#94bfff",
-        "fontStyle": "italic"
+        "foreground": "#94bfff"
       }
     },
     {
@@ -1392,8 +1351,7 @@
         "meta.function-call.arguments.python"
       ],
       "settings": {
-        "foreground": "#9494ff",
-        "fontStyle": "italic"
+        "foreground": "#9494ff"
       }
     },
     {
@@ -1403,8 +1361,7 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#94bfff",
-        "fontStyle": "italic"
+        "foreground": "#94bfff"
       }
     },
     {
@@ -1518,8 +1475,7 @@
       "name": "Elixir Binary Punctuations",
       "scope": "source.elixir .punctuation.binary.elixir",
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
     {
@@ -1692,8 +1648,7 @@
       "name": "Punctuations in PHP function calls",
       "scope": "meta.function-call.php punctuation",
       "settings": {
-        "foreground": "#CECECE",
-        "fontStyle": "italic"
+        "foreground": "#CECECE"
       }
     },
     {

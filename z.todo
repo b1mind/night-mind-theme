@@ -1,5 +1,5 @@
 Todo: 
-  ☐ make non italic versions ?
+  ✔ make non italic versions ? @done(21-05-13 17:41)
   ☐ merge conflict colors need checked
   ☐ textStyle markdown constant.character.escape and check others
 
@@ -20,6 +20,7 @@ Research:
 
 Wishlist:
    ☐ blue/highlight color theme?
+   ☐ real demos... like named what they color and functional..
 
 Archive:
   ✔ [purple] window panes highlight colors ( 2 right now?) @done(21-05-08 10:55) @project(Todo)
