@@ -32,6 +32,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Night Mind [purple-italic]",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-mind-deep-purple-italic.json"
+      },
+      {
         "label": "Night Mind [purple]",
         "uiTheme": "vs-dark",
         "path": "./themes/night-mind-deep-purple.json"
