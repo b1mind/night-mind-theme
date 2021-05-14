@@ -32,22 +32,22 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night Mind [purple]",
-        "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-deep-purple.json"
-      },
-      {
         "label": "Night Mind [purple-italic]",
         "uiTheme": "vs-dark",
         "path": "./themes/night-mind-deep-purple-italic.json"
       },
       {
-        "label": "Night Mind [gray]",
+        "label": "Night Mind [purple]",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-mind-deep-purple.json"
+      },
+      {
+        "label": "Night Mind [gray-italic]",
         "uiTheme": "vs-dark",
         "path": "./themes/night-mind-gray.json"
       },
       {
-        "label": "Night Mind [gray-italic]",
+        "label": "Night Mind [gray]",
         "uiTheme": "vs-dark",
         "path": "./themes/night-mind-gray.json"
       }

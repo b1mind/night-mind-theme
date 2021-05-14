@@ -2,6 +2,10 @@
 
 **Still in active development**
 
+## v0.1.5
+
+- Added Non-Italic versions for both color layouts
+
 ## v0.1.4
 
 - Git diff colors (still might change)

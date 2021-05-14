@@ -56,6 +56,8 @@
 
     "sideBarSectionHeader.background": "#1d1a27",
 
+    "activityBar.border": "#18141f",
+    "activityBarBadge.background": "#18141f",
     "activityBar.dropBackground": "#3D3D3D",
     "activityBar.background": "#1d1a27",
 
@@ -70,6 +72,7 @@
     "panel.background": "#1d1a27",
 
     "statusBar.background": "#1d1a27",
+    "statusBar.border": "#18141f",
     "statusBar.debuggingForeground": "#1d1a27",
     "statusBar.noFolderBackground": "#1d1a27",
     "statusBarItem.prominentBackground": "#1d1a27",
@@ -97,12 +100,7 @@
 
     "sideBar.background": "#18141f",
 
-    "activityBar.border": "#18141f",
-    "activityBarBadge.background": "#18141f",
-
     "panel.border": "#18141f",
-
-    "statusBar.border": "#18141f",
 
     "terminal.background": "#18141f",
     "terminalCursor.background": "#18141f",
