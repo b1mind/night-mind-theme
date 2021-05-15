@@ -634,8 +634,7 @@
       "name": "Keyword Operator Relational",
       "scope": "keyword.operator.relational",
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
     {

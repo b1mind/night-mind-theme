@@ -107,7 +107,8 @@
         "meta.function-call.python",
         "meta.function-call.generic.python",
         "source.elixir .punctuation.binary.elixir",
-        "meta.function-call.php punctuation"
+        "meta.function-call.php punctuation",
+        "storage.modifier.js"
       ],
       "settings": {
         "fontStyle": "italic"
@@ -705,8 +706,7 @@
       "name": "Keyword Operator Relational",
       "scope": "keyword.operator.relational",
       "settings": {
-        "foreground": "#b994ff",
-        "fontStyle": "italic"
+        "foreground": "#b994ff"
       }
     },
     {
