@@ -34,7 +34,7 @@
     "editorCodeLens.foreground": "#9CD9FF",
     "editorError.foreground": "#F05050",
     "editorError.border": null,
-    "editorWarning.foreground": "#FFC828",
+    "editorWarning.foreground": "#f9826c",
     "editorWarning.border": null,
 
     "editorGutter.modifiedBackground": "#8694e844",
@@ -50,7 +50,7 @@
 
     "editorMarkerNavigationInfo.background": "#64B4FA",
     "editorMarkerNavigationError.background": "#F05050",
-    "editorMarkerNavigationWarning.background": "#FFC828",
+    "editorMarkerNavigationWarning.background": "#f9826c",
 
     "editorGroup.dropBackground": "#ff05ff70",
     "editorGroupHeader.tabsBorder": "#2E2E2E",
@@ -93,7 +93,7 @@
     "list.invalidItemForeground": "#f05050",
     "list.highlightForeground": "#ff05ff",
     "list.errorForeground": "#F05050",
-    "list.warningForeground": "#FFE39C",
+    "list.warningForeground": "#f9826c",
     "listFilterWidget.background": "#1b1b1b",
     "listFilterWidget.foreground": "#ffffff",
     "listFilterWidget.outline": "#ff50ff",
