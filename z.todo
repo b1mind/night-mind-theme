@@ -1,17 +1,22 @@
 Todo: 
-  ✔ make non italic versions ? @done(21-05-13 17:41)
   ☐ merge conflict colors need checked
   ☐ textStyle markdown constant.character.escape and check others
 
-  ☐ uiStyle oddities like buttons/errors/ect
+  ✔ warning colors orange or yellow? underline/scroll don't match @done(21-05-15 21:30)
   ☐ uiStyle style debug?
-  ☐ color for window highlight? like extensions
+  ☐ color for window? like extensions
     ☐ extension content is .md preview check its colors
-  ☐ window guide buttons...some still blue hover.. like highlight
+    ☐ window guide buttons...some still blue hover.. like highlight
+  ☐ uiStyle oddities like buttons/errors/ect
 
   ☐ update package.json with more stuff. (badges, ect)
-  ☐ take new screenshots (more detail on UI)
   ☐ update readme (add how to deifine custom colors?)
+  ☐ take new screenshots (more detail on UI)
+    ☐ new general layout pics
+    ☐ italic/non italic example
+    ☐ Color extras/Git/gutter/scroll 
+    ☐ highlight colors
+    ☐ demos with better language examples
 
 Research:
   ☐ color icons in the top right of active window
@@ -23,6 +28,8 @@ Wishlist:
    ☐ real demos... like named what they color and functional..
 
 Archive:
+  ✔ make non italic versions ? @done(21-05-13 17:41) @project(Todo)
+  ✔ fix wildcard color in all css styles @done(21-05-14 22:45) @project(Todo)
   ✔ [purple] window panes highlight colors ( 2 right now?) @done(21-05-08 10:55) @project(Todo)
   ✔ peek def window color, git view color. @done(21-05-08 10:55) @project(Todo)
   ✔ warning/error/info colors need changed? @done(21-05-07 13:19) @project(Todo)
