@@ -5,28 +5,30 @@ This theme is my take on my favorite dark themes, with a focus on where focus is
 ## Preview Theme
 
 ⚠ This theme is in active development ⚠
-
-\*New Color Layout [ purple ]
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-purple-main.png)
+[![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-purple-main.png)](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-purple-main.png)
 
 Color Layout [ gray ]
-![Image Text?](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-alt-main.png)
+[![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-alt-main.png)](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-alt-main.png)
 
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-main.png)
+[![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-main.png)](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-main.png)
 
 Focus elements - Dimmed git highlights, bracket and indent highlights, as well as object highlighting \*(not on all word highlights!)
 
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-editor-focus2.png)
+[![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-editor-focus2.png)](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-editor-focus2.png)
 
 Highlighting - Inactive/Active
 
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-selection2.png)
+[![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-selection2.png)](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-selection2.png)
 
 Matching word highlight is subtle, while search highlight stands out
 
-![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-highlight.gif)
+[![](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-highlight.gif)](https://raw.githubusercontent.com/b1m1nd/night-mind-theme/develop/images/screen-highlight.gif)
 
 ## Customize
+
+```json
+  "addCustom-things":true
+```
 
 Used with BracketPair Colorizor2 extension (theme styles indent lines)
 
@@ -40,6 +42,7 @@ Used with BracketPair Colorizor2 extension (theme styles indent lines)
 
 ## Notes
 
+Making alternate color options (next will be simplified textmate colors)
 Removed Old Color Layout [old-gray]
 Going to revisit some of the git colors for explorer and problem highlights
 Still working on getting more languages polished and uniform.
