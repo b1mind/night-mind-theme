@@ -9,6 +9,7 @@ const mindArrows = () => {};
 doesNotExist.nope(`I'm never imported`);
 
 class Widget extends React.Component {}
+
 Widget.apply();
 
 imported.call("I am imported");

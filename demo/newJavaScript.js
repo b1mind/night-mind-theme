@@ -11,8 +11,17 @@ const person = {
   address: {
     street: "123 Main St",
     city: "Somewhere",
+    zipcode: "42069",
   },
 };
+
+const {
+  firstName,
+  age,
+  address: { street, city, zipcode },
+} = person;
+
+console.log(firstName, age, street, city, zipcode);
 
 function sum(multi, ...args) {
   return multi * args.reduce((sum, number) => sum + number, 0);
@@ -32,11 +41,3 @@ function addAndMultiply(a, b) {
 }
 
 const result = addAndMultiply(2, 3);
-
-const {
-  firstName,
-  age,
-  address: { street, city },
-} = person;
-
-console.log(firstName, age, street, city);

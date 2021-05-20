@@ -56,27 +56,27 @@
 </main>
 
 <style>
+  #unused {
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
   :root {
     --var: #ff50ff;
     --size: 1rem;
   }
 
-  * {
-    box-sizing: border-box;
-  }
-
   main {
     width: 100%;
-    color: red;
     display: grid;
     grid-template-areas: "test";
+    color: red;
     font-size: var(--size);
     font-weight: bold;
-  }
-
-  main::after {
-    content: "";
-    cursor: pointer;
   }
 
   .another-class {
