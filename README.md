@@ -47,5 +47,3 @@ Removed Old Color Layout [old-gray]
 Going to revisit some of the git colors for explorer and problem highlights
 Still working on getting more languages polished and uniform.
 Other backgrounds / focus colors
-
-_Keep in mind you can always change your color defaults in settings.json_
