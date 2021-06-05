@@ -79,6 +79,8 @@
     font-size: var(--size);
     font-weight: bold;
   }
+  
+  // another change for merge conflict demo test colors/keybinds
 
   .another-class {
     min-height: 50%;
