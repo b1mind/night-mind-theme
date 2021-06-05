@@ -2,6 +2,11 @@
 
 **Still in active development**
 
+## v0.1.6
+
+- updated readme with new screencaps and links to full size.
+- textmate fix for all Wildcard \* in css variants.
+
 ## v0.1.5
 
 - Added Non-Italic versions for both color layouts
