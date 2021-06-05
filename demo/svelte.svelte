@@ -13,7 +13,8 @@
       console.log(newLine);
     }
   }
-
+  
+  // test of merge conflict for theme demo 
   $: test;
   $store;
 
