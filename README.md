@@ -48,6 +48,8 @@ Going to revisit some of the git colors for explorer and problem highlights
 Still working on getting more languages polished and uniform.
 Other backgrounds / focus colors
 
+### Test merge conflict colors
+
 ### Opinionated Theme
 
 Feedback is welcome but this theme was made for use by my self. Many choices are based on the use of VIM/NeoVim extensions, and other colored extensions. This will be included in a Extension pack, with keybindings/snippets and custom colors/styles to fit the themes in the future.
