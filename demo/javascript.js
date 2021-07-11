@@ -28,7 +28,8 @@ export default async function unreachableCode(res) {
 let something = JSON.parse(res);
 const date = Date.getDate();
 
-const constant = `some things need to be colored ${variable2}`;
+const constant = `some things need to be colored ${variable21}`;
+
 let variable;
 
 function functionJunction(e, params, ...args) {
@@ -79,8 +80,8 @@ function functionJunction(e, params, ...args) {
   }
 }
 
-let variable2 = 420;
-variable2 = 421;
+let variable21 = 420;
+variable21 = 421;
 
 constant.anchor();
 

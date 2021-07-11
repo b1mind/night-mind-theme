@@ -1,4 +1,4 @@
-
+from testing import foooked 
 
 
 class A:

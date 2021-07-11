@@ -13,8 +13,8 @@
       console.log(newLine);
     }
   }
-  
-  // test of merge conflict for theme demo 
+
+  // test of merge conflict for theme demo
   $: test;
   $store;
 
@@ -47,7 +47,7 @@
     {#if age === 100 || someObj.prop >= 0}
       <Button>Sign Up</Button>
     {:else}
-      <Button prop={someObj.prop}>Click Me</Button>
+      <Button prop={someObj.prop} data-item={{ someVar }}>Click Me</Button>
 
       {#each links as link (link.id)}
         <a href={`"https://domain.com"${link}`}>{link}</a>
@@ -79,8 +79,6 @@
     font-size: var(--size);
     font-weight: bold;
   }
-  
-  // another change for merge conflict demo test colors/keybinds
 
   .another-class {
     min-height: 50%;
