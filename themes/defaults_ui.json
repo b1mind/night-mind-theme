@@ -34,7 +34,7 @@
     "editorCodeLens.foreground": "#9CD9FF",
     "editorError.foreground": "#F05050",
     "editorError.border": null,
-    "editorWarning.foreground": "#f9826c",
+    "editorWarning.foreground": "#f5b11d",
     "editorWarning.border": null,
 
     "editorGutter.modifiedBackground": "#8694e844",
@@ -50,7 +50,7 @@
 
     "editorMarkerNavigationInfo.background": "#64B4FA",
     "editorMarkerNavigationError.background": "#F05050",
-    "editorMarkerNavigationWarning.background": "#f9826c",
+    "editorMarkerNavigationWarning.background": "#f5b11d",
 
     "editorGroup.dropBackground": "#ff05ff70",
     "editorGroupHeader.tabsBorder": "#2E2E2E",
@@ -73,7 +73,7 @@
     "inputValidation.infoBackground": "#284864",
     "inputValidation.infoBorder": "#64B4FA",
     "inputValidation.warningBackground": "#665010",
-    "inputValidation.warningBorder": "#f9826c",
+    "inputValidation.warningBorder": "#f5b11d",
 
     "badge.foreground": "#cecece",
 
@@ -93,7 +93,7 @@
     "list.invalidItemForeground": "#f05050",
     "list.highlightForeground": "#ff05ff",
     "list.errorForeground": "#F05050",
-    "list.warningForeground": "#f9826c",
+    "list.warningForeground": "#f5b11d",
     "listFilterWidget.background": "#1b1b1b",
     "listFilterWidget.foreground": "#ffffff",
     "listFilterWidget.outline": "#ff50ff",
@@ -149,7 +149,7 @@
     "editorOverviewRuler.wordHighlightForeground": "#7C7C7C",
     "editorOverviewRuler.wordHighlightStrongForeground": "#7C7C7C",
     "editorOverviewRuler.errorForeground": "#F05050",
-    "editorOverviewRuler.warningForeground": "#f9826c",
+    "editorOverviewRuler.warningForeground": "#f5b11d",
     "editorOverviewRuler.infoForeground": "#64B4FA70",
 
     "panelInput.activeBorder": "#960096",

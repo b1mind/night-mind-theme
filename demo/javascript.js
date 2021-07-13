@@ -23,6 +23,7 @@ export default async function unreachableCode(res) {
     let data = await res;
     return data;
   } catch (error) {
+    console.dir(error);
     console.error(error);
   }
 }
@@ -81,6 +82,8 @@ function functionJunction(e, params, ...args) {
     }
   }
 }
+
+// conflicts happen so we need to color them.
 
 let variable21 = 420;
 variable21 = 421;

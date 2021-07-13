@@ -40,6 +40,10 @@
   anotherMyObj = new someObj();
 </script>
 
+<svelte:head>
+  <title>Some title here</title>
+</svelte:head>
+
 <main>
   <details-menu bind:this={detailsMenu}> some custom tag </details-menu>
   <div class="class" data-theme="light">
@@ -47,8 +51,6 @@
     {#if age === 100 || someObj.prop >= 0}
       <Button>Sign Up</Button>
     {:else}
-      <Button prop={someObj.prop} data-item={{ someVar }}>Click Me</Button>
-
       {#each links as link (link.id)}
         <a href={`"https://domain.com"${link}`}>{link}</a>
       {/each}
