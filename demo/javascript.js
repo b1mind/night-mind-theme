@@ -1,7 +1,7 @@
 import { imported } from "nothing";
 import * as React from "React";
 
-//Comment for a merge conflict so we can test colors and keybinds...
+//Comment for a merge conflict so we can test colors and keybinds... I like pizza
 
 //never used
 import { nothing } from "nothing";
@@ -83,7 +83,7 @@ function functionJunction(e, params, ...args) {
   }
 }
 
-// conflicts happen so we need to color them.
+// conflicts happen so we need to color them. I like beer.
 
 let variable21 = 420;
 variable21 = 421;
