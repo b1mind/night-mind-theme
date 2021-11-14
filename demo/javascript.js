@@ -1,7 +1,7 @@
-import { imported } from "nothing";
+import { default as imported } from "nothing";
 import * as React from "React";
 
-//Comment for a merge conflict so we can test colors and keybinds... I like steak
+//Comment for a merge conflict so we can test colors and keybinds... I like pizza
 
 //never used
 import { nothing } from "nothing";
