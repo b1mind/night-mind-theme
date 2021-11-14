@@ -2,6 +2,7 @@
   "name": "Night Gray Defaults",
   "include": "./defaults_ui.json",
   "colors": {
+    "editorIndentGuide.background": "#2E2E2E",
     "selection.background": "#2e2e2e",
     "editorCursor.background": "#161616",
     "editor.selectionForeground": "#161616",

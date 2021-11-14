@@ -8,6 +8,8 @@
     "welcomePage.buttonHoverBackground": "#960096",
     "extensionButton.prominentBackground": "#2e293d",
 
+    "editorIndentGuide.background": "#2e293d",
+
     "editorCursor.background": "#18141f",
     "editor.selectionForeground": "#18141f",
     "editor.inactiveSelectionBackground": "#18141f",

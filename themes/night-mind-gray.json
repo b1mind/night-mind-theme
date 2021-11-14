@@ -238,7 +238,7 @@
         "meta.method.declaration storage.type.js"
       ],
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
       }
     },
 
@@ -246,7 +246,7 @@
       "name": "interface",
       "scope": ["storage.type.interface"],
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
       }
     },
 
@@ -260,7 +260,7 @@
         "storage.type.property.tsx"
       ],
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#9494ff"
       }
     },
 
@@ -300,6 +300,7 @@
       "name": "Keyword Control Conditional",
       "scope": [
         "storage.modifier.async.js",
+        "storage.modifier.async.ts",
         "keyword.control.conditional.js",
         "keyword.control.conditional.ts",
         "keyword.control.switch.js",
@@ -332,7 +333,7 @@
       "name": "Variable Parameter Function",
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
       }
     },
 
@@ -379,14 +380,13 @@
     {
       "name": "Support Constant, `new` keyword, Special Method Keyword, `debugger`, other keywords",
       "scope": [
-        "keyword.operator.new.js",
         "support.constant",
         "keyword.other.special-method",
         "keyword.other.new",
         "keyword.other.debugger"
       ],
       "settings": {
-        "foreground": "#ffb894"
+        "foreground": "#9d9d9d"
       }
     },
 
@@ -562,7 +562,7 @@
       "name": "Keyword Operator Keyword operator expressions",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#ffb894"
+        "foreground": "#9d9d9d"
       }
     },
 
@@ -702,21 +702,21 @@
       "name": "Null and undefined",
       "scope": ["constant.language.null", "constant.language.undefined"],
       "settings": {
-        "foreground": "#ffb894"
+        "foreground": "#9494ff"
       }
     },
     {
       "name": "Boolean",
       "scope": ["constant.language.boolean"],
       "settings": {
-        "foreground": "#ffb894"
+        "foreground": "#9494ff"
       }
     },
     {
       "name": "entity names",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#e0b96b"
+        "foreground": "#9494ff"
       }
     },
     {
@@ -751,7 +751,7 @@
         "entity.other.attribute-name.id.css.sass"
       ],
       "settings": {
-        "foreground": "#94bfff",
+        "foreground": "#81a9e4",
         "fontStyle": "normal"
       }
     },
@@ -887,19 +887,21 @@
       }
     },
     {
-      "name": "keyframes rules",
+      "name": "media & keyframes rules",
       "scope": [
+        "punctuation.definition.keyword",
+        "keyword.control.at-rule.media.scss",
+        "keyword.control.at-rule.media.css",
         "meta.at-rule.keyframes.body.css",
         "source.css.scss meta.at-rule.keyframes.scss entity.other.attribute-name.scss"
       ],
       "settings": {
-        "foreground": "#b994ff"
+        "foreground": "#9494ff"
       }
     },
     {
       "name": "Keyword",
       "scope": [
-        "punctuation.definition.keyword",
         "entity.name.tag.reference",
         "support.function.sass",
         "keyword.control.interpolation.sass",
@@ -910,7 +912,7 @@
         "keyword.control.at-rule.css.sass"
       ],
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
       }
     },
     {
@@ -936,7 +938,7 @@
         "entity.name.tag.wildcard.sass"
       ],
       "settings": {
-        "foreground": "#f9826c"
+        "foreground": "#b994ff"
       }
     },
     {
@@ -977,13 +979,7 @@
     },
     {
       "name": "javascript property methods",
-      "scope": [
-        "support.variable.property.js",
-        "variable.other.property.js",
-        "variable.other.property.ts",
-        "variable.object.property.ts",
-        "variable.object.property.tsx"
-      ],
+      "scope": ["support.variable.property.js", "variable.other.property.js"],
       "settings": {
         "foreground": "#e0b96b",
         "fontStyle": "normal"
@@ -999,9 +995,13 @@
     },
     {
       "name": "this word in javascript",
-      "scope": ["variable.language.this.js", "variable.language.svelte"],
+      "scope": [
+        "keyword.operator.new.js",
+        "variable.language.this.js",
+        "variable.language.svelte"
+      ],
       "settings": {
-        "foreground": "#ffb894"
+        "foreground": "#9494ff"
       }
     },
     {
@@ -1012,7 +1012,7 @@
       }
     },
     {
-      "name": "TypeScript[React] Punctuation Decorators",
+      "name": "TypeScript [React] Punctuation Decorators",
       "scope": [
         "meta.decorator punctuation.decorator.ts",
         "meta.decorator punctuation.decorator.tsx"
@@ -1022,7 +1022,7 @@
       }
     },
     {
-      "name": "TypeScript[React] Variables and Object Properties",
+      "name": "TypeScript [React] Variables and Object Properties",
       "scope": [
         "variable.other.readwrite.alias.js",
         "variable.other.readwrite.alias.ts",
@@ -1265,7 +1265,6 @@
     {
       "name": "Keyword, imports, returns javascript and typescript",
       "scope": [
-        "keyword.control.default.js",
         "keyword.control.import.js",
         "keyword.control.import.ts",
         "keyword.control.import.tsx",
@@ -1274,7 +1273,39 @@
         "keyword.control.from.tsx"
       ],
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
+      }
+    },
+    {
+      "name": "Typescript support",
+      "scope": "support.type.primitive.ts",
+      "settings": {
+        "foreground": "#e0b96b"
+      }
+    },
+    {
+      "name": "operators and corrections for typescript",
+      "scope": "keyword.operator.type.annotation.ts",
+      "settings": {
+        "foreground": "#9d9d9d"
+      }
+    },
+    {
+      "name": "operators and corrections for typescript",
+      "scope": "keyword.operator.type.annotation.ts",
+      "settings": {
+        "foreground": "#9d9d9d"
+      }
+    },
+    {
+      "name": "Typescript object props",
+      "scope": [
+        "variable.other.property.ts",
+        "variable.object.property.ts",
+        "variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#CECECE"
       }
     },
     {
@@ -1333,14 +1364,14 @@
         "meta.structure.dictionary.json meta.structure.dictionary.value constant.language"
       ],
       "settings": {
-        "foreground": "#ffb894"
+        "foreground": "#9494ff"
       }
     },
     {
       "name": "Language Constants in Python",
       "scope": "constant.language.python",
       "settings": {
-        "foreground": "#f9826c"
+        "foreground": "#9494ff"
       }
     },
     {
@@ -1360,7 +1391,7 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
       }
     },
     {
@@ -1395,7 +1426,7 @@
       "name": "CoffeeScript Parameter Function",
       "scope": "variable.parameter.function.coffee",
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
       }
     },
     {
@@ -1440,7 +1471,7 @@
       "name": "Elixir Functions",
       "scope": "source.elixir entity.name.function",
       "settings": {
-        "foreground": "#94bfff"
+        "foreground": "#81a9e4"
       }
     },
     {
@@ -1481,7 +1512,7 @@
       "name": "Markdown Headings",
       "scope": "markup.heading.markdown",
       "settings": {
-        "foreground": "#94bfff",
+        "foreground": "#81a9e4",
         "fontStyle": "bold"
       }
     },
@@ -1593,7 +1624,7 @@
         "source.go constant.other.placeholder.go"
       ],
       "settings": {
-        "foreground": "#f9826c"
+        "foreground": "#9494ff"
       }
     },
     {
