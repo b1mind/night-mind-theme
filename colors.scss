@@ -66,7 +66,7 @@
   --whatColor: #284864;
 
   /*purple darks */
-  --main-background: #1e1b28;
+  --main-background: #1e1228;
   --background-temp: #1e1b27;
   --background-dark: #18141f;
   --selection: #2f2b3a;
@@ -105,7 +105,14 @@
   --diffEditor-removedTextBg: #140000;
   --diffEditor-insertedTextBg: #051405;
 
+  --mergeCurrent: #a1d88450;
+  --mergeIncoming: #9cd9ff50;
+  --mergeCommon: #ffe39c50;
+
   //new warning and git diff colors?
+  --mergeCurrent: #7b56ff50;
+  --mergeIncoming: #ffb48280;
+  --mergeCommon: #ffe39c50;
 
   --green: #80ffdb;
 
