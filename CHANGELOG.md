@@ -4,8 +4,18 @@
 
 ## v0.1.6
 
+- NEW LOGO!! Had some fun and made a new vector logo for a 1 year anniversary.
+- Matching color brackets!! vsCode as of Aug (update Oct) now has bracket coloring backed in.
+- Typescript matchs more in line with rest of textmate and JS styles. _still in works_
+- Git Merge and Difference +/- changes.
+- Darkened gutter git diff colors just a bit more.
+- Small changes to a few oddities I was not happy with (this, \*/@/media in css, booleans in json, dimmed the textmate blue a bit)
 - updated readme with new screencaps and links to full size.
 - textmate fix for all Wildcard \* in css variants.
+
+[ purple ]
+
+- changed inactive indent color to more of a purple
 
 ## v0.1.5
 
