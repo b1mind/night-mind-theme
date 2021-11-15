@@ -2,6 +2,10 @@
 
 **Still in active development**
 
+## v0.1.69
+
+- Logo revision.
+
 ## v0.1.6
 
 - NEW LOGO!! Had some fun and made a new vector logo for a 1 year anniversary.
