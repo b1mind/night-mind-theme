@@ -1,153 +1,154 @@
 :root {
-  // highlight colors
-  --pink-highlight: #ff50ff;
-  --purple-highlight: #7b56ff;
-  --highlight-dark: #960096;
-  --events-pink: #df94ff;
+	// highlight colors
+	--pink-highlight: #ff50ff;
+	--purple-highlight: #7b56ff;
+	--highlight-dark: #960096;
+	--events-pink: #df94ff;
 
-  // function/declaration colors
-  --events-pink-alt: #b994ff;
-  --purple-main: #9494ff;
-  --purple: #8694e8;
-  --purple-dark: #50476b;
-  --purple-light: #a0b2f3;
-  --blue-dark: #94bfff;
-  --blue: #64b4fa;
-  --blue-alt: #81a9e4;
-  --lightblue: #9cd9ff;
-  --blue: #00b1ff;
+	// function/declaration colors
+	--events-pink-alt: #b994ff;
+	--purple-main: #9494ff;
+	--purple: #8694e8;
+	--purple-dark: #50476b;
+	--purple-light: #a0b2f3;
+	--blue-dark: #94bfff;
+	--blue: #64b4fa;
+	--blue-alt: #81a9e4;
+	--lightblue: #9cd9ff;
+	--blue: #00b1ff;
 
-  // brackets real light (pastel)
-  --um: #f8f8c3;
-  --um: #dac3f8;
-  --um: #c5c4f8;
-  --um2: #b5b3f7;
-  --um: #c3e0f8;
-  --um2: #a8d2f4;
-  --um: #d0edcf;
+	// brackets real light (pastel)
+	--um: #f8f8c3;
+	--um: #dac3f8;
+	--um: #c5c4f8;
+	--um2: #b5b3f7;
+	--um: #c3e0f8;
+	--um2: #a8d2f4;
+	--um: #d0edcf;
 
-  --blue: #64dfdf;
-  --teal-blue: #719fb0;
-  --green: #80ffdb;
+	--blue: #64dfdf;
+	--teal-blue: #719fb0;
+	--green: #80ffdb;
 
-  // variable / string colors
-  --um: #e0b96b;
-  --um: #e7ca8d;
-  --um: #e0a93d;
-  --um: #d39033;
-  --this: #ffb482;
-  --svelte: #ffb894;
-  --some: #ffad94;
+	// variable / string colors
+	--um: #e0b96b;
+	--um: #e7ca8d;
+	--um: #e0a93d;
+	--um: #d39033;
+	--this: #ffb482;
+	--svelte: #ffb894;
+	--some: #ffad94;
 
-  --add: #9dda9a;
-  --add: #a1d884;
-  --mmm: #aae682;
-  --add2: #6eb450;
+	--add: #9dda9a;
+	--add: #a1d884;
+	--mmm: #aae682;
+	--add2: #6eb450;
 
-  --htmlOrange: #f9826c;
-  --some-alt: #fba798;
-  --conflict: #f05050;
-  --conflict2: #ff5722;
-  --svelteOG: #ff7e57;
+	--htmlOrange: #f9826c;
+	--some-alt: #fba798;
+	--conflict: #f05050;
+	--conflict2: #ff5722;
+	--svelteOG: #ff7e57;
 
-  /* gray darks */
-  --background: #1b1b1b;
-  --background-dark: #161616;
-  --two: #242424;
-  --border: #2e2e2e;
+	/* gray darks */
+	--background: #1b1b1b;
+	--background-dark: #161616;
+	--two: #242424;
+	--border: #2e2e2e;
 
-  // gray lights
-  --ignore: #3e3e3e;
-  --one: #3d3d3d;
-  --yea: #525252;
-  --hum: #9d9d9d;
-  --wtfGrey: #7c7c7c;
-  --lightgrey: #cecece;
-  --whatColor: #284864;
+	// gray lights
+	--ignore: #3e3e3e;
+	--one: #3d3d3d;
+	--yea: #525252;
+	--comments: #636363;
+	--hum: #9d9d9d;
+	--wtfGrey: #7c7c7c;
+	--lightgrey: #cecece;
+	--whatColor: #284864;
 
-  /*purple darks */
-  --main-background: #1d1a27;
-  --main-background-bright: #18141f;
-  --background-temp: #1e1b27;
-  --background-dark: #18141f;
-  --selection: #2f2b3a;
-  --selection-dark: #2e293d;
-  --selection-bright: #39334d;
-  --selection-purple: #39334d;
-  --find-highlight: #50476b;
-  --menu-bg: #242131;
-  --border-test: #1f1e24;
-  --border: #2e2e2e;
+	/*purple darks */
+	--main-background: #1d1a27;
+	--main-background-bright: #18141f;
+	--background-temp: #1e1b27;
+	--background-dark: #18141f;
+	--selection: #2f2b3a;
+	--selection-dark: #2e293d;
+	--selection-bright: #39334d;
+	--find-highlight: #50476b;
+	--find-highlight: #534c67;
+	--menu-bg: #242131;
+	--border-test: #1f1e24;
+	--border: #2e2e2e;
 
-  // purple lights
-  --um: #c5c4f8;
-  --um2: #b5b3f7;
-  --ignore: #3e3e3e;
-  --one: #3d3d3d;
-  --yea: #525252;
-  --hum: #9d9d9d;
-  --lightgrey: #cecece;
+	// purple lights
+	--um: #c5c4f8;
+	--um2: #b5b3f7;
+	--ignore: #3e3e3e;
+	--one: #3d3d3d;
+	--yea: #525252;
+	--hum: #9d9d9d;
+	--lightgrey: #cecece;
 
-  // blue darks
-  --background: #1c1a27;
-  --background-dark: #18141f;
+	// blue darks
+	--background: #1c1a27;
+	--background-dark: #18141f;
 
-  // others
-  --old-functions: #00dcdc;
+	// others
+	--old-functions: #00dcdc;
 
-  // colors that need replaced still
-  --error: #f05050;
-  --warning: #f5a91d;
-  --warningNew: #f5b11d;
-  --info: #64b4fa;
-  --errorBG: #392020;
-  --warningBG: #665010;
-  --infoBG: #284864;
-  --diffEditor-removedTextBg: #140000;
-  --diffEditor-insertedTextBg: #051405;
+	// colors that need replaced still
+	--error: #f05050;
+	--warning: #f5a91d;
+	--warningNew: #f5b11d;
+	--info: #64b4fa;
+	--errorBG: #392020;
+	--warningBG: #665010;
+	--infoBG: #284864;
+	--diffEditor-removedTextBg: #140000;
+	--diffEditor-insertedTextBg: #051405;
 
-  --mergeCurrent: #a1d88450;
-  --mergeIncoming: #9cd9ff50;
-  --mergeCommon: #ffe39c50;
+	--mergeCurrent: #a1d88450;
+	--mergeIncoming: #9cd9ff50;
+	--mergeCommon: #ffe39c50;
 
-  //new warning and git diff colors?
-  --mergeCurrent: #7b56ff50;
-  --mergeIncoming: #ffb48280;
-  --mergeCommon: #ffe39c50;
+	//new warning and git diff colors?
+	--mergeCurrent: #7b56ff50;
+	--mergeIncoming: #ffb48280;
+	--mergeCommon: #ffe39c50;
 
-  --green: #80ffdb;
+	--green: #80ffdb;
 
-  //git stuffs
-  --wtf: #a1d884;
-  --wtf: #d88282;
+	//git stuffs
+	--wtf: #a1d884;
+	--wtf: #d88282;
 
-  //test colors
-  --gold: #fcce9e;
-  --gold-dark: #ffbe79;
-  --purple: #a561ff;
-  --purple-alt: #845ec2;
-  --pink: #b34180;
-  --pink: #fd72ad;
-  --pink-500: #e36bae;
-  --pink-100: #f8a1d1;
-  --blue-100: #cfe3ff;
-  --purple-100: #d2d1ff;
+	//test colors
+	--gold: #fcce9e;
+	--gold-dark: #ffbe79;
+	--purple: #a561ff;
+	--purple-alt: #845ec2;
+	--pink: #b34180;
+	--pink: #fd72ad;
+	--pink-500: #e36bae;
+	--pink-100: #f8a1d1;
+	--blue-100: #cfe3ff;
+	--purple-100: #d2d1ff;
 
-  //Better comments old colors
-  --todo: #fbff00;
-  --fixme: #ff2d00;
-  --bang: #a20000;
-  --question: #757500;
-  --normal: #444444;
-  --astrict: #ff8c00;
-  --atHole: #00ff5a;
-  --graterThan: #007aff;
-  --lessThan: #1c4d89;
+	//Better comments old colors
+	--todo: #fbff00;
+	--fixme: #ff2d00;
+	--bang: #a20000;
+	--question: #757500;
+	--normal: #444444;
+	--astrict: #ff8c00;
+	--atHole: #00ff5a;
+	--graterThan: #007aff;
+	--lessThan: #1c4d89;
 }
 
 //notes:
 
 /* 
-  "meta.embedded.block.svelte", // effects sass var: value colors?
+	"meta.embedded.block.svelte", // effects sass var: value colors?
 
  */

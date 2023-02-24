@@ -1,61 +1,61 @@
 Todo: 
-  ✔ ts to look more like js @done(21-11-13 22:24)
-  ✔ merge conflict colors need checked @done(21-11-13 22:23)
-  ☐ tsx jsx need visited 
-  ☐ textStyle markdown constant.character.escape and check others
+	✔ ts to look more like js @done(21-11-13 22:24)
+	✔ merge conflict colors need checked @done(21-11-13 22:23)
+	☐ tsx jsx need visited 
+	☐ textStyle markdown constant.character.escape and check others
 
-  ✔ warning colors orange or yellow? underline/scroll don't match @done(21-05-15 21:30)
-  ☐ uiStyle style debug?
-  ☐ color for window? like extensions
-    ☐ extension content is .md preview check its colors
-    ☐ window guide buttons...some still blue hover.. like highlight
-  ☐ uiStyle oddities like buttons/errors/ect
+	✔ warning colors orange or yellow? underline/scroll don't match @done(21-05-15 21:30)
+	☐ uiStyle style debug?
+	☐ color for window? like extensions
+		☐ extension content is .md preview check its colors
+		☐ window guide buttons...some still blue hover.. like highlight
+	☐ uiStyle oddities like buttons/errors/ect
 
-  ☐ update package.json with more stuff. (badges, ect)
-  ☐ update readme (add how to deifine custom colors?)
-  ☐ take new screenshots (more detail on UI)
-    ☐ new general layout pics
-    ☐ italic/non italic example
-    ☐ Color extras/Git/gutter/scroll 
-    ☐ highlight colors
-    ☐ demos with better language examples
+	☐ update package.json with more stuff. (badges, ect)
+	☐ update readme (add how to deifine custom colors?)
+	☐ take new screenshots (more detail on UI)
+		☐ new general layout pics
+		☐ italic/non italic example
+		☐ Color extras/Git/gutter/scroll 
+		☐ highlight colors
+		☐ demos with better language examples
 
 Research:
-  ☐ color icons in the top right of active window
-  ☐ find out about hierarchy and how/if it matters
-  ☐ check how other themes are setup with settings/abstractions
+	☐ color icons in the top right of active window
+	☐ find out about hierarchy and how/if it matters
+	☐ check how other themes are setup with settings/abstractions
 
 Wishlist:
-   ☐ blue/highlight color theme?
-   ☐ real demos... like named what they color and functional..
+	 ☐ blue/highlight color theme?
+	 ☐ real demos... like named what they color and functional..
 
 Archive:
-  ✔ make non italic versions ? @done(21-05-13 17:41) @project(Todo)
-  ✔ fix wildcard color in all css styles @done(21-05-14 22:45) @project(Todo)
-  ✔ [purple] window panes highlight colors ( 2 right now?) @done(21-05-08 10:55) @project(Todo)
-  ✔ peek def window color, git view color. @done(21-05-08 10:55) @project(Todo)
-  ✔ warning/error/info colors need changed? @done(21-05-07 13:19) @project(Todo)
-  ✔ uiStyle bottom panel background @done(21-05-07 13:20) @project(Todo)
-  ✔ uiStyle minmap colors @done(21-05-07 13:20) @project(Todo)
-  ✔ vsc window*extension yellow border tab highlight @done(21-05-07 13:20) @project(Todo)
-  ✔ uiStyle git history shit @done(21-05-06 18:16) @project(Todo)
-  ✔ input box errors? currently yellow @done(21-05-07 11:09) @project(Todo)
-  ✔ [purple] background color for drop down selection inputs @done(21-05-07 12:11) @project(Todo)
-  ✔ [purple] notifications background and colors/highlights @done(21-04-26 11:51) @project(Todo)
-  ✔ filter in explorer/side bar needs colored @done(21-05-07 12:11) @project(Todo)
-  ✔ textStyle model.exports.js orange @done(21-02-21 22:11) @project(Todo)
-  ✔ textStyle JSON.Math.Date different... also max-width CSS @done(21-02-21 22:11) @project(Todo)
-  ✔ [purple] play with highlight colors @done(21-02-21 22:12) @project(Todo)
-  ✔ [purple] popup/palette/menu background needs lightened @done(21-02-21 22:12) @project(Todo)
-  ✔ color scroll bar borders different @done(21-02-21 04:10) @project(Todo)
-  ✔ color scroll bar different period.... @done(21-02-21 04:10) @project(Todo)
-  ✔ finish purple borders and replacing rest of the unwanted gray @done(22-02-21 04:11) @project(Todo)
-  ✔ purple background theme started? @done(21-02-20 23:00) @project(Todo)
-  ✔ sync todo with notion todo @done(21-02-20 23:00) @project(Todo)
-  ✔ restyle explorer text/highlight @done(21-02-03 17:39) @project(Todo)
-  ✔ set up template with default (like default themes do) @done(21-02-03 17:36) @project(Todo)
-  ✔ learn how to use the new semantic styles @done(21-02-03 17:36) @project(Todo)
-  ✔ Issue: Semantic styles make const and let different colors, params italic @done(21-02-03 17:36) @project(Todo)
-  ✔ style more of the UI components @done(21-01-22 01:32) @project(Todo)
-  ✔ add more of the highlight color @done(21-01-22 01:31) @project(Todo)
-  ✔ change tab underline to white @done(21-01-22 01:30) @project(Todo)
+	✔ make non italic versions ? @done(21-05-13 17:41) @project(Todo)
+	✔ fix wildcard color in all css styles @done(21-05-14 22:45) @project(Todo)
+	✔ [purple] window panes highlight colors ( 2 right now?) @done(21-05-08 10:55) @project(Todo)
+	✔ peek def window color, git view color. @done(21-05-08 10:55) @project(Todo)
+	✔ warning/error/info colors need changed? @done(21-05-07 13:19) @project(Todo)
+	✔ uiStyle bottom panel background @done(21-05-07 13:20) @project(Todo)
+	✔ uiStyle minmap colors @done(21-05-07 13:20) @project(Todo)
+	✔ vsc window*extension yellow border tab highlight @done(21-05-07 13:20) @project(Todo)
+	✔ uiStyle git history shit @done(21-05-06 18:16) @project(Todo)
+	✔ input box errors? currently yellow @done(21-05-07 11:09) @project(Todo)
+	✔ [purple] background color for drop down selection inputs @done(21-05-07 12:11) @project(Todo)
+	✔ [purple] notifications background and colors/highlights @done(21-04-26 11:51) @project(Todo)
+	✔ filter in explorer/side bar needs colored @done(21-05-07 12:11) @project(Todo)
+	✔ textStyle model.exports.js orange @done(21-02-21 22:11) @project(Todo)
+	✔ textStyle JSON.Math.Date different... also max-width CSS @done(21-02-21 22:11) @project(Todo)
+	✔ [purple] play with highlight colors @done(21-02-21 22:12) @project(Todo)
+	✔ [purple] popup/palette/menu background needs lightened @done(21-02-21 22:12) @project(Todo)
+	✔ color scroll bar borders different @done(21-02-21 04:10) @project(Todo)
+	✔ color scroll bar different period.... @done(21-02-21 04:10) @project(Todo)
+	✔ finish purple borders and replacing rest of the unwanted gray @done(22-02-21 04:11) @project(Todo)
+	✔ purple background theme started? @done(21-02-20 23:00) @project(Todo)
+	✔ sync todo with notion todo @done(21-02-20 23:00) @project(Todo)
+	✔ restyle explorer text/highlight @done(21-02-03 17:39) @project(Todo)
+	✔ set up template with default (like default themes do) @done(21-02-03 17:36) @project(Todo)
+	✔ learn how to use the new semantic styles @done(21-02-03 17:36) @project(Todo)
+	✔ Issue: Semantic styles make const and let different colors, params italic @done(21-02-03 17:36) @project(Todo)
+	✔ style more of the UI components @done(21-01-22 01:32) @project(Todo)
+	✔ add more of the highlight color @done(21-01-22 01:31) @project(Todo)
+	✔ change tab underline to white @done(21-01-22 01:30) @project(Todo)
