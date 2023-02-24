@@ -1,10 +1,3 @@
-<p align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=b1m1nd.night-mind"><img src="https://vsmarketplacebadge.apphb.com/version-short/b1m1nd.night-mind.svg?style=for-the-badge&colorA=18141f&colorB=50476b&label=VERSION" alt="Version"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=b1m1nd.night-mind"><img src="https://vsmarketplacebadge.apphb.com/rating-short/b1m1nd.night-mind.svg?style=for-the-badge&colorA=18141f&colorB=50476b&label=Rating" alt="Rating"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=b1m1nd.night-mind"><img src="https://vsmarketplacebadge.apphb.com/installs-short/b1m1nd.night-mind.svg?style=for-the-badge&colorA=18141f&colorB=50476b&label=Installs" alt="Installs"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=b1m1nd.night-mind"><img src="https://vsmarketplacebadge.apphb.com/downloads-short/b1m1nd.night-mind.svg?style=for-the-badge&colorA=18141f&colorB=50476b&label=Downloads" alt="Downloads"></a>
-</p>
-
 # Night Mind
 
 This theme is my take on my favorite dark themes [OneDarkPro](#) [NightOwl](#) [Moonlight](#). Rich text elements, with a dim UI and bright focus color used to direct attention to where you're active.

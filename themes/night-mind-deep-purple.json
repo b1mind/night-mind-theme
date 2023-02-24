@@ -643,7 +643,7 @@
 				"comment.block.documentation punctuation.definition.bracket.curly"
 			],
 			"settings": {
-				"foreground": "#636363",
+				"foreground": "#737373",
 				"fontStyle": "italic"
 			}
 		},
@@ -656,7 +656,7 @@
 				"string.comment.buffered.block.pug"
 			],
 			"settings": {
-				"foreground": "#636363"
+				"foreground": "#737373"
 			}
 		},
 		{

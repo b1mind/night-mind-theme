@@ -1,63 +1,63 @@
 {
-  "name": "night-mind",
-  "displayName": "Night Mind",
-  "description": "Dark Theme with strong focus highlights",
-  "publisher": "b1m1nd",
-  "author": {
-    "name": "Brent S. Morton"
-  },
-  "version": "0.1.69",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/b1m1nd/night-mind-theme"
-  },
-  "bugs": {
-    "url": "https://github.com/b1m1nd/night-mind-theme/issues",
-    "email": "b@1mind.dev"
-  },
-  "engines": {
-    "vscode": "^1.52.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "Night",
-    "Dark",
-    "Theme",
-    "Dark Theme",
-    "Night Theme",
-    "Night Mind",
-    "1Mind",
-    "b1m1nd"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Night Mind [purple-italic]",
-        "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-deep-purple-italic.json"
-      },
-      {
-        "label": "Night Mind [purple]",
-        "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-deep-purple.json"
-      },
-      {
-        "label": "Night Mind [gray-italic]",
-        "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-gray.json"
-      },
-      {
-        "label": "Night Mind [gray]",
-        "uiTheme": "vs-dark",
-        "path": "./themes/night-mind-gray.json"
-      }
-    ]
-  },
-  "galleryBanner": {
-    "color": "#1b1b1b",
-    "theme": "dark"
-  },
-  "icon": "images/night-mind-icon.png"
+	"name": "night-mind",
+	"displayName": "Night Mind",
+	"description": "Dark Theme with strong focus highlights",
+	"publisher": "b1m1nd",
+	"author": {
+		"name": "Brent S. Morton"
+	},
+	"version": "0.1.70",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/b1m1nd/night-mind-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/b1m1nd/night-mind-theme/issues",
+		"email": "b@1mind.dev"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Night",
+		"Dark",
+		"Theme",
+		"Dark Theme",
+		"Night Theme",
+		"Night Mind",
+		"1Mind",
+		"b1m1nd"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Night Mind [purple-italic]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night-mind-deep-purple-italic.json"
+			},
+			{
+				"label": "Night Mind [purple]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night-mind-deep-purple.json"
+			},
+			{
+				"label": "Night Mind [gray-italic]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night-mind-gray.json"
+			},
+			{
+				"label": "Night Mind [gray]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night-mind-gray.json"
+			}
+		]
+	},
+	"galleryBanner": {
+		"color": "#1b1b1b",
+		"theme": "dark"
+	},
+	"icon": "images/night-mind-icon.png"
 }

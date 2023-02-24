@@ -5,7 +5,7 @@
   $name = 'wes';
   $cool = true;
 
-   if(isset($_FILES['image'])){
+   if (isset($_FILES['image'])) {
       $errors = [];
       $file_name = $_FILES['image']['name'];
       $file_size =$_FILES['image']['size'];

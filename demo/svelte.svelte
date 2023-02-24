@@ -25,11 +25,10 @@
   //testing
   const someObj = {
     age: 38,
-    prop: 12,
+    prop: 13,
     nested: {
       prop: 100,
     },
-    prop: 10,
     arraySure: [a, b, c, d],
     initialAge: age,
     addProps: function (notUsed, index) {
