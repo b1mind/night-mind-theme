@@ -47,7 +47,7 @@
 <main>
   <details-menu bind:this={detailsMenu}> some custom tag </details-menu>
   <div class="class" data-theme="light">
-    <div id="id" in:fly={{}} use:someFun={{}} on:click={() => {}} />
+    <button id="id" in:fly={{}} use:someFun={{}} on:click={() => {}} />
 
     {#if age === 100 || someObj.prop >= 0}
       <Button>Sign Up</Button>

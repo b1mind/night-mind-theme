@@ -5,6 +5,9 @@
 		"editor.foreground": "#cecece",
 		"editorLink.activeForeground": null,
 
+		"editorLineNumber.foreground": "#525252",
+		"editorLineNumber.activeForeground": "#3e3e3e",
+
 		"editorBracketHighlight.foreground1": "#c4c3f8",
 		"editorBracketHighlight.foreground2": "#f8f8c3",
 		"editorBracketHighlight.foreground3": "#a8d2f4",
@@ -13,8 +16,8 @@
 		"editorBracketHighlight.foreground6": "#a8d2f4",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#f05050",
 
-		"editorBracketMatch.border": "#50476b",
-		"editorIndentGuide.activeBackground": "#50476b",
+		"editorBracketMatch.border": "#595f94",
+		"editorIndentGuide.activeBackground": "#595f94",
 
 		"contrastActiveBorder": null,
 		"contrastBorder": null,
@@ -58,7 +61,7 @@
 		"editorLightBulbAutoFix.foreground": "#80ffdb80",
 
 		"button.foreground": "#cecece",
-		"button.hoverBackground": "#ff05ff90",
+		"button.hoverBackground": "#ff05ff70",
 
 		"extensionButton.prominentForeground": "#FFFFFF",
 		"extensionButton.prominentHoverBackground": "#ff05ff90",
@@ -86,6 +89,11 @@
 		"sideBarTitle.foreground": "#9D9D9D",
 		"sideBarSectionHeader.foreground": "#cecece",
 
+		"activityBar.foreground": "#9D9D9D",
+		"activityBar.activeBorder": "#9d9d9d",
+		"activityBar.inactiveForeground": "#525252",
+		"activityBarBadge.foreground": "#8694e8",
+
 		"list.inactiveFocusForeground": null,
 		"list.inactiveFocusBackground": null,
 		"list.activeSelectionForeground": null,
@@ -98,11 +106,10 @@
 		"listFilterWidget.outline": "#ff50ff",
 		"listFilterWidget.noMatchesOutline": "#F05050",
 
-		"tab.activeForeground": "#CECECE",
 		"tab.activeBorder": null,
+		"tab.activeForeground": "#CECECE",
 		"tab.inactiveForeground": "#7C7C7C",
 		"tab.unfocusedActiveForeground": "#9d9d9d",
-		"tab.unfocusedActiveBorder": "#2E2E2E",
 		"tab.unfocusedInactiveForeground": "#525252",
 
 		"menubar.selectionForeground": "#CECECE",
@@ -173,6 +180,7 @@
 
 		"titleBar.activeForeground": "#9D9D9D",
 		"titleBar.inactiveForeground": "#525252",
+		"titleBar.border": "#161616",
 
 		"notificationCenter.border": "#2E2E2E",
 		"notificationCenterHeader.foreground": "#9D9D9D",

@@ -2,8 +2,6 @@
 	"name": "Night Gray Defaults",
 	"include": "./defaults_ui.json",
 	"colors": {
-		"editorLineNumber.foreground": "#525252",
-		"editorLineNumber.activeForeground": "#3e3e3e",
 		"editorIndentGuide.background": "#2E2E2E",
 		"selection.background": "#2e2e2e",
 		"editorCursor.background": "#161616",
@@ -43,6 +41,7 @@
 		"tab.border": "#2E2E2E",
 		"tab.activeBackground": "#2e2e2e",
 		"tab.inactiveBackground": "#1B1B1B",
+		"tab.unfocusedActiveBorder": "#2E2E2E",
 		"tab.unfocusedActiveBackground": "#242424",
 		"debugExceptionWidget.background": "#1B1B1B",
 		"peekViewEditor.background": "#1B1B1B",
@@ -56,11 +55,6 @@
 		"statusBarItem.prominentHoverBackground": "#525252",
 		"sideBar.border": "#2E2E2E",
 		"editorOverviewRuler.border": null,
-
-		"activityBar.foreground": "#9D9D9D",
-		"activityBar.activeBorder": "#9d9d9d",
-		"activityBar.inactiveForeground": "#525252",
-		"activityBarBadge.foreground": "#8694e8",
 
 		"dropdown.border": "#242424",
 		"dropdown.listBackground": "#242424",
