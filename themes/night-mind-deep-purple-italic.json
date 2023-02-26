@@ -309,7 +309,7 @@
 				"meta.method.declaration storage.type.js"
 			],
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 
@@ -317,7 +317,7 @@
 			"name": "interface",
 			"scope": ["storage.type.interface"],
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 
@@ -404,7 +404,7 @@
 			"name": "Variable Parameter Function",
 			"scope": "variable.parameter.function",
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 
@@ -822,7 +822,7 @@
 				"entity.other.attribute-name.id.css.sass"
 			],
 			"settings": {
-				"foreground": "#a0b2f3",
+				"foreground": "#8694e8",
 				"fontStyle": "normal"
 			}
 		},
@@ -983,7 +983,7 @@
 				"keyword.control.at-rule.css.sass"
 			],
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 		{
@@ -1344,7 +1344,7 @@
 				"keyword.control.from.tsx"
 			],
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 		{
@@ -1462,7 +1462,7 @@
 				"meta.function-call.generic.python"
 			],
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 		{
@@ -1497,7 +1497,7 @@
 			"name": "CoffeeScript Parameter Function",
 			"scope": "variable.parameter.function.coffee",
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 		{
@@ -1542,7 +1542,7 @@
 			"name": "Elixir Functions",
 			"scope": "source.elixir entity.name.function",
 			"settings": {
-				"foreground": "#a0b2f3"
+				"foreground": "#8694e8"
 			}
 		},
 		{
@@ -1583,7 +1583,7 @@
 			"name": "Markdown Headings",
 			"scope": "markup.heading.markdown",
 			"settings": {
-				"foreground": "#a0b2f3",
+				"foreground": "#8694e8",
 				"fontStyle": "bold"
 			}
 		},
