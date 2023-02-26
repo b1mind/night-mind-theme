@@ -8,8 +8,8 @@
 		"welcomePage.buttonHoverBackground": "#960096",
 		"extensionButton.prominentBackground": "#2e293d",
 
-		"editorLineNumber.foreground": "#424871",
-		"editorLineNumber.activeForeground": "#3a3e61",
+		"editorLineNumber.foreground": "#50476b",
+		"editorLineNumber.activeForeground": "#463e5d",
 
 		"editorIndentGuide.background": "#2e293d",
 
@@ -57,7 +57,7 @@
 		"activityBar.dropBackground": "#3D3D3D",
 		"activityBar.foreground": "#8694e8",
 		"activityBar.background": "#1d1a27",
-		"activityBar.inactiveForeground": "#424871",
+		"activityBar.inactiveForeground": "#50476b",
 		"activityBarBadge.foreground": "#8694e8",
 		"activityBarBadge.background": "#18141f",
 
@@ -117,7 +117,7 @@
 		"editorOverviewRuler.border": "#1d1a27",
 
 		"breadcrumbPicker.background": "#18141f",
-		"breadcrumb.foreground": "#CECECE",
+		"breadcrumb.foreground": "#9D9D9D",
 		"breadcrumb.focusForeground": "#8694e8",
 
 		"panel.border": "#18141f",

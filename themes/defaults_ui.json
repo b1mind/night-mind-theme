@@ -16,8 +16,8 @@
 		"editorBracketHighlight.foreground6": "#a8d2f4",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#f05050",
 
-		"editorBracketMatch.border": "#595f94",
-		"editorIndentGuide.activeBackground": "#595f94",
+		"editorBracketMatch.border": "#50476b",
+		"editorIndentGuide.activeBackground": "#50476b",
 
 		"contrastActiveBorder": null,
 		"contrastBorder": null,
@@ -82,7 +82,7 @@
 
 		"breadcrumb.foreground": "#8694e8",
 		"breadcrumb.focusForeground": "#8694e8",
-		"breadcrumb.activeSelectionForeground": "#ff05ff",
+		"breadcrumb.activeSelectionForeground": "#8694e8",
 
 		"sideBar.dropBackground": "#ff05ff70",
 		"sideBar.foreground": "#9D9D9D",
