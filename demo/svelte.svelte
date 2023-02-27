@@ -1,8 +1,7 @@
 <script>
   import { Button } from "./components/Button.svelte";
-  export let variable = 300;
 
-  function someFun(dex) {
+  export async function someFun(dex) {
     let boolean = false;
     let ternary = !boolean ? "a don't know" : dex;
 

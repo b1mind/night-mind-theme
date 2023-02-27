@@ -51,7 +51,7 @@
 				"meta.diff.header.to-file"
 			],
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 
@@ -237,7 +237,7 @@
 				"meta.method.declaration storage.type.js"
 			],
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 
@@ -245,7 +245,7 @@
 			"name": "interface",
 			"scope": ["storage.type.interface"],
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 
@@ -332,7 +332,7 @@
 			"name": "Variable Parameter Function",
 			"scope": "variable.parameter.function",
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 
@@ -750,7 +750,7 @@
 				"entity.other.attribute-name.id.css.sass"
 			],
 			"settings": {
-				"foreground": "#8694e8",
+				"foreground": "#a0b2f3",
 				"fontStyle": "normal"
 			}
 		},
@@ -911,7 +911,7 @@
 				"keyword.control.at-rule.css.sass"
 			],
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 		{
@@ -1272,7 +1272,7 @@
 				"keyword.control.from.tsx"
 			],
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 		{
@@ -1390,7 +1390,7 @@
 				"meta.function-call.generic.python"
 			],
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 		{
@@ -1425,7 +1425,7 @@
 			"name": "CoffeeScript Parameter Function",
 			"scope": "variable.parameter.function.coffee",
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 		{
@@ -1470,7 +1470,7 @@
 			"name": "Elixir Functions",
 			"scope": "source.elixir entity.name.function",
 			"settings": {
-				"foreground": "#8694e8"
+				"foreground": "#a0b2f3"
 			}
 		},
 		{
@@ -1511,7 +1511,7 @@
 			"name": "Markdown Headings",
 			"scope": "markup.heading.markdown",
 			"settings": {
-				"foreground": "#8694e8",
+				"foreground": "#a0b2f3",
 				"fontStyle": "bold"
 			}
 		},
